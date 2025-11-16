@@ -15,10 +15,10 @@
   <a href="#"><img src="https://img.shields.io/badge/Contributions-Welcome-lightblue.svg" alt="Contributions"></a>
 </p>
 
----
-
 
 ## <span style="color:red;">Group Members</span>
+---
+
 
 ![Dawit Lulie](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=1E90FF&width=400&height=50&lines=Dawit+Lulie)  
 ![Feven Tassew](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=32CD32&width=400&height=50&lines=Feven+Tassew)  
