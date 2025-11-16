@@ -164,59 +164,6 @@ Experience LifeLog in action:
 ## Project Folder Structure
 
  ```bash
-LifeLog/
-├─ index.html                        → Main dashboard and entry point
-├─ README.md                         → Project documentation
-│
-├─ css/                              → All styling files
-│  ├─ style.css                      → Core styles (layout, typography, color)
-│  ├─ responsive.css                 → Mobile and tablet responsive design
-│  └─ theme.css                      → Color themes and dark/light mode
-│
-├─ js/                               → JavaScript logic and functionality
-│  ├─ main.js                        → Initializes app and handles navigation
-│  ├─ journal.js                     → Journal entry features (add, edit, delete)
-│  ├─ habit.js                       → Habit tracker logic
-│  ├─ mood.js                        → Mood tracking and analytics
-│  ├─ todo.js                        → To-do list management
-│  ├─ summary.js                     → Weekly/monthly summary generator
-│  ├─ storage.js                     → LocalStorage save and load operations
-│  ├─ validation.js                  → Form input validation
-│  └─ utils.js                       → Helper and reusable utility functions
-│
-├─ assets/                           → All static media files
-│  ├─ icons/                         → Icons for UI and navigation
-│  ├─ images/                        → Backgrounds, mockups, and photos
-│  └─ fonts/                         → Custom web fonts
-│
-├─ components/                       → Reusable HTML sections
-│  ├─ header.html                    → Top navigation bar
-│  ├─ sidebar.html                   → Side menu for quick access
-│  ├─ footer.html                    → Page footer section
-│  ├─ card.html                      → Reusable card layout
-│  └─ modal.html                     → Popup/modal templates
-│
-├─ pages/                            → Individual web pages
-│  ├─ journal.html                   → Journal entries page
-│  ├─ habits.html                    → Habit tracking page
-│  ├─ mood.html                      → Mood tracking page
-│  ├─ todo.html                      → To-do management page
-│  └─ summary.html                   → Summary and reports page
-│
-├─ data/                             → Data and configuration files
-│  ├─ sampleData.json                → Example data for testing
-│  └─ config.json                    → App configuration settings
-│
-├─ docs/                             → Documentation and design assets
-│  ├─ SDS_Document.docx              → System Design Specification document
-│  ├─ Wireframe.png                  → Wireframe or UI mockup
-│  ├─ FlowDiagram.png                → Application flow diagram
-│  └─ ER_Diagram.png                 → Data structure or relationship diagram
-│
-└─ tests/                            → Testing files (optional)
-   ├─ unitTests.js                   → Unit testing scripts
-   └─ testData.json                  → Data used for test cases
-
 
 ```
 ## Future Enhancements
