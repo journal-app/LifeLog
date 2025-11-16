@@ -136,8 +136,6 @@ Experience LifeLog in action:
 
 ## Screenshots & UI Mockups
 
-// # Dashboard Overview
-// ![Dashboard Overview](link-to-your-image)
 
 # Journal Entry 
 <img width="911" height="650" alt="image" src="https://github.com/user-attachments/assets/7c44ae1a-34c6-430e-a016-b2d1023974b9" />
