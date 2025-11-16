@@ -136,10 +136,10 @@ Experience LifeLog in action:
 
 ## Screenshots & UI Mockups
 
-### Dashboard Overview
+# Dashboard Overview
 ![Dashboard Overview](link-to-your-image)
 
-### Journal Entry Module
+# Journal Entry Module
 ![Journal Entry Module](link-to-your-image)
 
 # Habit Tracker 
@@ -153,6 +153,7 @@ Experience LifeLog in action:
 
 # To-Do List 
 <img width="938" height="647" alt="image" src="https://github.com/user-attachments/assets/1805e81b-a9bf-4d29-9e04-9812241b7d1b" />
+
 # Weekly Summary
 
 <img width="936" height="660" alt="image" src="https://github.com/user-attachments/assets/70d58a3c-095a-4dde-a2e9-2b19499999bb" />
