@@ -162,7 +162,7 @@ Experience LifeLog in action:
 ---
 
 ## Project Folder Structure
-
+```bash
 LifeLog/
 │
 ├── index.html                          → Dashboard Overview
@@ -198,9 +198,6 @@ LifeLog/
 │       └── illustrations/              → graphics
 │
 └── README.md
-
-
- ```bash
 
 ```
 ## Future Enhancements
