@@ -142,17 +142,21 @@ Experience LifeLog in action:
 ### Journal Entry Module
 ![Journal Entry Module](link-to-your-image)
 
-### Habit Tracker 
+# Habit Tracker 
 <img width="941" height="664" alt="image" src="https://github.com/user-attachments/assets/67db8063-7dd4-4420-ab7b-7c618b7118a4" />
 
 
 
-### Mood Tracker 
+# Mood Tracker 
 <img width="934" height="655" alt="image" src="https://github.com/user-attachments/assets/187332e9-3b90-482d-bac1-b2e98a3a5125" />
 
 
-### To-Do List 
+# To-Do List 
 <img width="938" height="647" alt="image" src="https://github.com/user-attachments/assets/1805e81b-a9bf-4d29-9e04-9812241b7d1b" />
+# Weekly Summary
+
+<img width="936" height="660" alt="image" src="https://github.com/user-attachments/assets/70d58a3c-095a-4dde-a2e9-2b19499999bb" />
+
 
 
 ---
