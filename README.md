@@ -147,12 +147,13 @@ Experience LifeLog in action:
 
 
 
-### Mood Tracker Module
+### Mood Tracker 
 <img width="934" height="655" alt="image" src="https://github.com/user-attachments/assets/187332e9-3b90-482d-bac1-b2e98a3a5125" />
 
 
-### To-Do List Module
-![To-Do List Module](link-to-your-image)
+### To-Do List 
+<img width="938" height="647" alt="image" src="https://github.com/user-attachments/assets/1805e81b-a9bf-4d29-9e04-9812241b7d1b" />
+
 
 ---
 
