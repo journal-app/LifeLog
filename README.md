@@ -140,7 +140,8 @@ Experience LifeLog in action:
 ![Dashboard Overview](link-to-your-image)
 
 # Journal Entry Module
-![Journal Entry Module](link-to-your-image)
+<img width="911" height="650" alt="image" src="https://github.com/user-attachments/assets/7c44ae1a-34c6-430e-a016-b2d1023974b9" />
+
 
 # Habit Tracker 
 <img width="941" height="664" alt="image" src="https://github.com/user-attachments/assets/67db8063-7dd4-4420-ab7b-7c618b7118a4" />
