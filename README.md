@@ -18,7 +18,7 @@
 ---
 
 
-##  Group Members
+## <span style="color:red;">Group Members</span>
 
 ![Dawit Lulie](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=1E90FF&width=400&height=50&lines=Dawit+Lulie)  
 ![Feven Tassew](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=32CD32&width=400&height=50&lines=Feven+Tassew)  
@@ -28,7 +28,7 @@
 ![Haset Tesfaye](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=00CED1&width=400&height=50&lines=Haset+Tesfaye)
 
 
-##  Project Tagline
+## <span style="color:red;">Project Taglines</span>
 
 **LifeLog** is your all-in-one digital journal and productivity dashboard, designed to help you:
 
@@ -40,7 +40,7 @@
 *Seamless, responsive, and intuitive — stay organized, motivated, and mindful every day.*
 
 
-## Table of Contents  
+## <span style="color:red;">Table of contents</span> 
 - [Overview](#overview)  
 - [Features](#features)  
 - [System Architecture](#system-architecture)  
@@ -56,7 +56,7 @@
 
 ---
 
-## Overview  
+## <span style="color:red;">Overview</span>
 
 LifeLog is a personal journaling and productivity web app designed to help users record thoughts, track habits, monitor moods, and manage daily tasks. It provides a unified, responsive dashboard accessible on desktop, tablet, and mobile devices.  
 
@@ -66,7 +66,7 @@ Future versions may include cloud storage, authentication, and AI-powered insigh
 
 ---
 
-## Features  
+## <span style="color:red;">Features</span>
 
 | Module | Description |
 |:--|:--|
@@ -80,7 +80,7 @@ Future versions may include cloud storage, authentication, and AI-powered insigh
 
 ---
 
-## System Architecture  
+## <span style="color:red;">System Architecture</span>
 
 ```plaintext
 User
@@ -93,7 +93,7 @@ User
    Local Storage (Client-Side)
 ```
 
-## Technology Stack
+## <span style="color:red;">Technology Stack</span
 
 | **Layer**             | **Technology**                           |
 | :-------------------- | :--------------------------------------- |
@@ -101,7 +101,7 @@ User
 | **Storage**           | Browser Local Storage (offline)          |
 | **Future Enhancements** | PHP, Database (MySQL/SQLite), AI modules |
 
-## Installation
+## <span style="color:red;">Installation</span>
 
 1. **Clone the repository:**
 
@@ -109,7 +109,7 @@ User
 git clone https://github.com/journal-app/JournalApp.git
 ```
 
-##  Live Demo
+## <span style="color:red;">Live Demo</span>
 
 Experience LifeLog in action:
 
@@ -123,7 +123,7 @@ Experience LifeLog in action:
 *Quick, easy, and ready to enhance your productivity today!*
 
 
-## Usage Guide
+## <span style="color:red;">Usage Guide</span>
 
 | **Action**           | **Description**                                                |
 | :------------------ | :------------------------------------------------------------- |
@@ -134,7 +134,7 @@ Experience LifeLog in action:
 | **Weekly Summary**    | View your weekly activity overview and progress.              |
 
 
-## Screenshots & UI Mockups
+## <span style="color:red;">Screenshots & UI Mockups</span>     
 
 
 # Journal Entry 
@@ -161,7 +161,7 @@ Experience LifeLog in action:
 
 ---
 
-## Project Folder Structure
+## <span style="color:red;">Project Folder Structures</span>
 ```bash
 LifeLog/
 │
