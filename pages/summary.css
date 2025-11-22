@@ -73,14 +73,14 @@ body {
 
 .card {
     width: 50%;
-    background: #b9b9b9;
+    background: #303030;
     padding: 20px;
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card h3 {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .card:hover {
@@ -105,7 +105,7 @@ body {
     height: 300px;
     margin-top: 15px;
     margin-right: 200px;
-    background: #b9b9bb;
+    background: #303030;
     border-radius: 10px;
     display: flex;
     justify-content: center;
