@@ -20,6 +20,7 @@
 
     <main class="content">
 
+        <button id="toggleBtn" class="toggle-btn">☰</button>
         <h1>Weekly Summary</h1>
 
         <section class="summary-box">
@@ -28,7 +29,7 @@
 
                 <div class="card">
                     <h3>Habit Progress</h3>
-                    <div class="piechart"><canvas id="piechart" width="400px" height="290px"></canvas></div>
+                    <div class="piechart"><canvas id="piechart" width="300px" height="290px"></canvas><canvas id="tablechart"  width="550" height="290"></canvas></div>
                 </div>
 
                 <div class="card">
@@ -49,10 +50,14 @@
 <script>
     
     let labels = ['big mac', 'big foot', 'injerta', 'firfir', 'hello'];
+    let lab = ['Done', 'left']
     let dataset = [200, 530, 340, 234, 777];
     let dataset2 = [898, 234,249,492,480];
     let dataset3 = [367,281,887,102,321];
     let dataset4 = [145,691,560,568,645];
+    let datapie = [31, 11]
+    let color = ['#237d71','#fbff4a']
+    
 
     const colors = [
         'rgb(255, 99, 132)',
@@ -61,6 +66,8 @@
         'rgb(75, 192, 192)',
         'rgb(54, 162, 235)'
     ];
+
+
 
     const data = {
         labels: labels,
@@ -138,8 +145,8 @@
         }
     };
 
-    const config2 = {
-        type: 'doughnut',
+    const config3 = {
+        type: 'bar',
         data: data,
         options: {
             responsive: false,
@@ -155,6 +162,35 @@
             },
         }
     };
+
+    const db = {
+        labels: lab,
+        datasets: [{
+            label: 'tasks',
+            animations: {
+                y: {
+                    duration: 2000,
+                    delay: 200
+                }
+            },
+            data: datapie,
+            backgroundColor: color,
+            hoverOffset: 4,
+        },]
+    };
+
+    const config2 = {
+        type: 'doughnut',
+        data: db,
+        options: {
+            responsive: false,
+            plugins: {
+                legend: {
+                    display: false
+                },    
+            },
+        }
+    };
     
 
     const barchart = new Chart (
@@ -166,6 +202,21 @@
         document.getElementById('piechart'),
         config2
     )
+
+    const tablechart = new Chart (
+        document.getElementById('tablechart'),
+        config3
+    )
+
+    const toggleBtn = document.getElementById("toggleBtn");
+    const sidebar = document.querySelector(".sidebar");
+    const content = document.querySelector(".content");
+
+    toggleBtn.addEventListener("click", () => {
+        sidebar.classList.toggle("closed");
+        content.classList.toggle("expanded");
+    });
+
 
 </script>
 
