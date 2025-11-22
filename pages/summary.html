@@ -3,20 +3,19 @@
 <head>
     <title>Weekly Summary</title>
     <link rel="stylesheet" href="summary.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 
 <div class="container">
 
     <aside class="sidebar">
-        <h2>LIFELOG</h2>
-
-         <a href="../index.html"><pre><img src="home.png" alt="">&nbsp;&nbsp;Home</pre></a>
-                <a href="#"> <pre><img src="journal.png" alt="">&nbsp;&nbsp;Journal</pre></a>
-                <a href="#"><pre><img src="habit.png" alt="">&nbsp;&nbsp;Habits</pre></a>
-                <a href="#"><pre><img src="moods.png" alt="">&nbsp;&nbsp;Mood</pre></a>
-                <a href="#"><pre><img src="to-do-list.png" alt="">&nbsp;&nbsp;To-do-list</pre></a>
-                <a href="#"><pre><img src="summary.png" alt="">&nbsp;&nbsp;Summary</pre></a>
+        <a href="../index.html"><pre><img src="home.png" alt="">&nbsp;&nbsp;Home</pre></a>
+        <a href="journal.html"> <pre><img src="journal.png" alt="">&nbsp;&nbsp;Journal</pre></a>
+        <a href="#"><pre><img src="habit.png" alt="">&nbsp;&nbsp;Habits</pre></a>
+        <a href="#"><pre><img src="moods.png" alt="">&nbsp;&nbsp;Mood</pre></a>
+        <a href="#"><pre><img src="to-do-list.png" alt="">&nbsp;&nbsp;To-do-list</pre></a>
+        <a href="#"><pre><img src="summary.png" alt="">&nbsp;&nbsp;Summary</pre></a>
     </aside>
 
     <main class="content">
@@ -25,26 +24,150 @@
 
         <section class="summary-box">
             <h2>Weekly Insight : October 25-31</h2>
+                <div class="charts">
 
-            <div class="charts">
                 <div class="card">
                     <h3>Habit Progress</h3>
-                    <div class="placeholder">Chart here</div>
+                    <div class="piechart"><canvas id="piechart" width="400px" height="290px"></canvas></div>
                 </div>
 
                 <div class="card">
                     <h3>Mood Distribution</h3>
-                    <div class="placeholder">Pie chart here</div>
+                    <div class="placeholder" id="bar"><canvas id="barchart" width="700px" height="270px"></canvas></div>
                 </div>
+
             </div>
 
             <div class="line-chart">
                 <div class="placeholder">Line Chart</div>
             </div>
-        </section>
 
+        </section>
     </main>
+
 </div>
+<script>
+    
+    let labels = ['big mac', 'big foot', 'injerta', 'firfir', 'hello'];
+    let dataset = [200, 530, 340, 234, 777];
+    let dataset2 = [898, 234,249,492,480];
+    let dataset3 = [367,281,887,102,321];
+    let dataset4 = [145,691,560,568,645];
+
+    const colors = [
+        'rgb(255, 99, 132)',
+        'rgb(255, 159, 64)',
+        'rgb(255, 205, 86)',
+        'rgb(75, 192, 192)',
+        'rgb(54, 162, 235)'
+    ];
+
+    const data = {
+        labels: labels,
+        datasets: [{
+            label: 'Happy',
+            animations: {
+                y: {
+                    duration: 2000,
+                    delay: 200
+                }
+            },
+            data: dataset,
+            backgroundColor: '#237d71',
+            borderColor: '#46fae2', 
+            hoverOffset: 4,
+        },
+        {
+            label: 'Anixious',
+            animations: {
+                y: {
+                    duration: 2000,
+                    delay: 200
+                }
+            },
+            data: dataset2,
+            borderColor: '#fbff4a',
+            backgroundColor: '#878a2c',
+            hoverOffset: 4,
+        },
+        {
+            label: 'Angry',
+            animations: {
+                y: {
+                    duration: 2000,
+                    delay: 200
+                }
+            },
+            data: dataset3,
+            borderColor: '#fa9d46',
+            backgroundColor: '#8a5627',
+            hoverOffset: 4,
+        },
+        {
+            label: 'Sad',
+            animations: {
+                y: {
+                    duration:   2000,
+                    delay: 200
+                }
+            },
+            data: dataset4,
+            borderColor: '#40a9ff',
+            backgroundColor: '#255f8a',
+            hoverOffset: 4,
+            fill: 1
+        }
+        ]
+    };
+
+    const config1 = {
+        type: 'line',
+        data: data,
+        options: {
+            responsive: false,
+            plugins: {
+                legend: {
+                    position: 'right',
+                    labels: {
+                        font: {
+                            
+                        }
+                    }
+                },    
+            },
+        }
+    };
+
+    const config2 = {
+        type: 'doughnut',
+        data: data,
+        options: {
+            responsive: false,
+            plugins: {
+                legend: {
+                    position: 'right',
+                    labels: {
+                        font: {
+                            
+                        }
+                    }
+                },    
+            },
+        }
+    };
+    
+
+    const barchart = new Chart (
+        document.getElementById('barchart'),
+        config1
+    );
+
+    const piechart = new Chart (
+        document.getElementById('piechart'),
+        config2
+    )
+
+</script>
 
 </body>
 </html>
