@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weekly Summary</title>
+    <link rel="stylesheet" href="summary.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+        <a href="../index.html"><pre><img src="home.png" alt="">&nbsp;&nbsp;Home</pre></a>
+        <a href="journal.html"> <pre><img src="journal.png" alt="">&nbsp;&nbsp;Journal</pre></a>
+        <a href="#"><pre><img src="habit.png" alt="">&nbsp;&nbsp;Habits</pre></a>
+        <a href="#"><pre><img src="moods.png" alt="">&nbsp;&nbsp;Mood</pre></a>
+        <a href="#"><pre><img src="to-do-list.png" alt="">&nbsp;&nbsp;To-do-list</pre></a>
+        <a href="#"><pre><img src="summary.png" alt="">&nbsp;&nbsp;Summary</pre></a>
+    </aside>
+
+    <main class="content">
+
+        <button id="toggleBtn" class="toggle-btn">☰</button>
+        <h1>Weekly Summary</h1>
+
+        <section class="summary-box">
+            <h2>Weekly Insight : October 25-31</h2>
+                <div class="charts">
+
+                <div class="card">
+                    <h3>Habit Progress</h3>
+                    <div class="piechart"><canvas id="piechart" width="300px" height="290px"></canvas><canvas id="tablechart"  width="550" height="290"></canvas></div>
+                </div>
+
+                <div class="card">
+                    <h3>Mood Distribution</h3>
+                    <div class="placeholder" id="bar"><canvas id="barchart" width="700px" height="270px"></canvas></div>
+                </div>
+
+            </div>
+
+            <div class="line-chart">
+                <div class="placeholder">Line Chart</div>
+            </div>
+
+        </section>
+    </main>
+
+</div>
+<script>
+    
+    let labels = ['big mac', 'big foot', 'injerta', 'firfir', 'hello'];
+    let lab = ['Done', 'left']
+    let dataset = [200, 530, 340, 234, 777];
+    let dataset2 = [898, 234,249,492,480];
+    let dataset3 = [367,281,887,102,321];
+    let dataset4 = [145,691,560,568,645];
+    let datapie = [31, 11]
+    let color = ['#237d71','#fbff4a']
+    
+
+    const colors = [
+        'rgb(255, 99, 132)',
+        'rgb(255, 159, 64)',
+        'rgb(255, 205, 86)',
+        'rgb(75, 192, 192)',
+        'rgb(54, 162, 235)'
+    ];
+
+
+
+    const data = {
+        labels: labels,
+        datasets: [{
+            label: 'Happy',
+            animations: {
+                y: {
+                    duration: 2000,
+                    delay: 200
+                }
+            },
+            data: dataset,
+            backgroundColor: '#237d71',
+            borderColor: '#46fae2', 
+            hoverOffset: 4,
+        },
+        {
+            label: 'Anixious',
+            animations: {
+                y: {
+                    duration: 2000,
+                    delay: 200
+                }
+            },
+            data: dataset2,
+            borderColor: '#fbff4a',
+            backgroundColor: '#878a2c',
+            hoverOffset: 4,
+        },
+        {
+            label: 'Angry',
+            animations: {
+                y: {
+                    duration: 2000,
+                    delay: 200
+                }
+            },
+            data: dataset3,
+            borderColor: '#fa9d46',
+            backgroundColor: '#8a5627',
+            hoverOffset: 4,
+        },
+        {
+            label: 'Sad',
+            animations: {
+                y: {
+                    duration:   2000,
+                    delay: 200
+                }
+            },
+            data: dataset4,
+            borderColor: '#40a9ff',
+            backgroundColor: '#255f8a',
+            hoverOffset: 4,
+            fill: 1
+        }
+        ]
+    };
+
+    const config1 = {
+        type: 'line',
+        data: data,
+        options: {
+            responsive: false,
+            plugins: {
+                legend: {
+                    position: 'right',
+                    labels: {
+                        color: 'white'
+                    }
+                },    
+            },
+        }
+    };
+
+    const config3 = {
+        type: 'bar',
+        data: data,
+        options: {
+            responsive: false,
+            plugins: {
+                legend: {
+                    position: 'right',
+                    labels: {
+                        font: {
+                            
+                        }
+                    }
+                },    
+            },
+        }
+    };
+
+    const db = {
+        labels: lab,
+        datasets: [{
+            label: 'tasks',
+            animations: {
+                y: {
+                    duration: 2000,
+                    delay: 200
+                }
+            },
+            data: datapie,
+            backgroundColor: color,
+            hoverOffset: 4,
+        },]
+    };
+
+    const config2 = {
+        type: 'doughnut',
+        data: db,
+        options: {
+            responsive: false,
+            plugins: {
+                legend: {
+                    display: false
+                },    
+            },
+        }
+    };
+    
+
+    const barchart = new Chart (
+        document.getElementById('barchart'),
+        config1
+    );
+
+    const piechart = new Chart (
+        document.getElementById('piechart'),
+        config2
+    )
+
+    const tablechart = new Chart (
+        document.getElementById('tablechart'),
+        config3
+    )
+
+    const toggleBtn = document.getElementById("toggleBtn");
+    const sidebar = document.querySelector(".sidebar");
+    const content = document.querySelector(".content");
+
+    toggleBtn.addEventListener("click", () => {
+        sidebar.classList.toggle("closed");
+        content.classList.toggle("expanded");
+    });
+
+
+</script>
+
+</body>
+</html>
