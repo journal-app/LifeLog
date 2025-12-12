@@ -40,7 +40,6 @@ Group Members
 
 *Seamless, responsive, and intuitive — stay organized, motivated, and mindful every day.*
 
-
 ## Table of contents
 - [Overview](#overview)  
 - [Features](#features)  
