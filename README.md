@@ -15,7 +15,6 @@
   <a href="#"><img src="https://img.shields.io/badge/Contributions-Welcome-lightblue.svg" alt="Contributions"></a>
 </p>
 
-
 Group Members
 ---
 
