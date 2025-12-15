@@ -15,7 +15,6 @@
   <a href="#"><img src="https://img.shields.io/badge/Contributions-Welcome-lightblue.svg" alt="Contributions"></a>
 </p>
 
-
 Group Members
 ---
 
@@ -40,7 +39,6 @@ Group Members
 - Visualize your personal growth over time  
 
 *Seamless, responsive, and intuitive — stay organized, motivated, and mindful every day.*
-
 
 ## Table of contents
 - [Overview](#overview)  
