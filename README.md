@@ -165,39 +165,58 @@ Experience LifeLog in action:
 ```bash
 LifeLog/
 │
-├── index.html                          → Dashboard Overview
+├── index.html
+│   └── Home page
 │
 ├── pages/
-│   ├── journal.html                    → Journal Entry
-│   ├── habit-tracker.html              → Habit Tracker
-│   ├── mood-tracker.html               → Mood Tracker
-│   ├── todo.html                       → To-Do List
-│   └── weekly-summary.html             → Weekly Summary
+│   ├── journal.html
+│   │   └── Journal page
+│   ├── habit.html
+│   │   └── Habit tracker page
+│   ├── mood.html
+│   │   └── Mood tracker page
+│   ├── todo.html
+│   │   └── To-Do list page
+│   ├── weekly-summary.html
+│   │   └── Weekly summary page
+│   ├── login.html
+│   │   └── Login page
+│   └── signup.html
+│       └── Sign-up page
 │
-├── components/
-│   ├── header.html                     → Navigation bar
-│   ├── sidebar.html                    → Sidebar menu with links
-│   └── footer.html                     → Footer
+├── css/
+│   ├── main.css
+│   │   └── Main stylesheet (imports all CSS files)
+│   ├── common.css
+│   │   └── Shared styles (layout, navbar, buttons)
+│   ├── home.css
+│   ├── journal.css
+│   ├── habit.css
+│   ├── mood.css
+│   ├── todo.css
+│   ├── weekly-summary.css
+│   └── auth.css
+│       └── Styles for login & signup pages
+│
+├── js/
+│   ├── home.js
+│   ├── journal.js
+│   ├── habit.js
+│   ├── mood.js
+│   ├── todo.js
+│   ├── weekly-summary.js
+│   └── auth.js
+│       └── Authentication logic (login & signup)
 │
 ├── assets/
-│   ├── css/
-│   │   ├── base.css                    → resets, variables, fonts
-│   │   ├── layout.css                  → header, sidebar, grid layout
-│   │   └── pages.css                   → styles for each page
-│   │
-│   ├── js/
-│   │   ├── main.js                     → shared logic (dark mode, navbar, storage)
-│   │   ├── journal.js                  → journal functions
-│   │   ├── habit.js                    → habit tracker logic
-│   │   ├── mood.js                     → mood tracker logic
-│   │   ├── todo.js                     → to-do list logic
-│   │   └── summary.js                  → weekly summary logic
-│   │
-│   └── images/
-│       ├── icons/                      → SVG/PNG icons
-│       └── illustrations/              → graphics
+│   ├── images/
+│   └── icons/
 │
-└── README.md
+├── docs/
+│   └── LifeLog-SRS.pdf
+│
+└── LICENSE
+
 
 ```
 ## Future Enhancements
