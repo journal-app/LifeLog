@@ -1,48 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
     <title>MOOD TRACKER</title>
+    <meta charset="UTF-8">
   </head>
 
   <body>
-    <aside class="sideBar">
+    <aside>
       <h2>LIFELOG</h2>
-      <nav>
-        <!--the sidebar navigation part of the websitte-->
+
+    <!-- Sidebar Navigation (same structure as other pages) -->
+    <aside class="sidebar">
         <ul class="nav-list">
-      <li><a href="Dashboard.html" class="nav-item">Dashboard</a></li>
-      <li><a href="journal.html" class="nav-item">Journal</a></li>
-      <li><a href="habit-tracker.html" class="nav-item">Habits</a></li>
-      <li><a href="mood-tracker.html" class="nav-item">Mood</a></li>
-      <li><a href="todo.html" class="nav-item">To-Do</a></li>
-      <li><a href="weekly-summary.html" class="nav-item">Summary</a></li>
+            <li><a href="journal.html" class="nav-item">Journal</a></li>
+            <li><a href="habits.html" class="nav-item">Habits</a></li>
+            <li><a href="mood.html" class="nav-item">Mood</a></li>
+            <li class="active"><a href="todo.html" class="nav-item">To-Do</a></li>
+            <li><a href="summary.html" class="nav-item">Summary</a></li>
         </ul>
-      </nav>
     </aside>
 
     <main>
-      <h1>MOOD TRACKER</h1>
+      <h1 id="title">MOOD TRACKER</h1>
       <!-- we will be adding the date here -->
-      <section class="dateDisplay">
+      <section>
         <p>[ Date goes here ]</p>
       </section>
 
       <section class="moodItems">
-        
+        <!--the user will choose the current mood he/she is in by clicking the corresponding emoji-->
+        😊 🙁 😵 😐
       </section>
 
-      <section class="textInput">
+      <section class="inputText">
         <h3>Happy</h3>
-        <!-- the user will be able to write additional notes here-->
+        <!--the user can write additional notes here-->
         <input type="text" placeholder="Add Notes" id="note" name="note">
-        <!-- the user will add the note by clicking the + button-->
-        <button>+</button>
+        <button class="addBtn">+</button>
       </section>
 
-      <section class="weeklyMood">
+      <section class="weeklyTrend">
         <h3>Weekly Mood Trend</h3>
-        <!-- the graphical representation of weekly mood summary will be placed here -->
+        <!-- the chart will be placed here -->
         <p>[ Weekly mood chart goes here ]</p>
       </section>
 
@@ -50,4 +49,3 @@
 
   </body>
 </html>
-
