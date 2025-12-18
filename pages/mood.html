@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker - LifeLog</title>
+
+</head>
+<body>
+    <!-- Navigation (Same as other pages) -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>LifeLog</h1>
+            </div>
+            
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">
+                    <i class="fas fa-home"></i> Home
+                </a>
+                <a href="journal.html" class="nav-link">
+                    <i class="fas fa-book"></i> Journal
+                </a>
+                <a href="habit.html" class="nav-link">
+                    <i class="fas fa-chart-line"></i> Habit
+                </a>
+                <a href="mood.html" class="nav-link active">
+                    <i class="fas fa-smile"></i> Mood
+                </a>
+                <a href="todo.html" class="nav-link">
+                    <i class="fas fa-tasks"></i> To-Do
+                </a>
+                <a href="weekly-summary.html" class="nav-link">
+                    <i class="fas fa-calendar-week"></i> Weekly
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Page Header -->
+        <div class="page-header">
+            <h2><i class="fas fa-smile"></i> Mood Tracker</h2>
+            <p>Track your daily emotions and understand your emotional patterns</p>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-box">
+            <div class="stat">
+                <span class="stat-num" id="mood-today">--</span>
+                <span class="stat-text">Today's Mood</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num" id="mood-streak">0</span>
+                <span class="stat-text">Day Streak</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num" id="mood-count">0</span>
+                <span class="stat-text">Total Logs</span>
+            </div>
+        </div>
+
+        <!-- Today's Mood Log -->
+        <div class="card">
+            <h3>Log Today's Mood</h3>
+            
+            <div class="mood-selection">
+                <div class="mood-option" data-mood="excellent">
+                    <div class="mood-icon excellent">
+                        <i class="fas fa-grin-stars"></i>
+                    </div>
+                    <span class="mood-label">Excellent</span>
+                </div>
+                
+                <div class="mood-option" data-mood="good">
+                    <div class="mood-icon good">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <span class="mood-label">Good</span>
+                </div>
+                
+                <div class="mood-option" data-mood="neutral">
+                    <div class="mood-icon neutral">
+                        <i class="fas fa-meh"></i>
+                    </div>
+                    <span class="mood-label">Neutral</span>
+                </div>
+                
+                <div class="mood-option" data-mood="tired">
+                    <div class="mood-icon tired">
+                        <i class="fas fa-tired"></i>
+                    </div>
+                    <span class="mood-label">Tired</span>
+                </div>
+                
+                <div class="mood-option" data-mood="stressed">
+                    <div class="mood-icon stressed">
+                        <i class="fas fa-frown"></i>
+                    </div>
+                    <span class="mood-label">Stressed</span>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label>Add Notes (Optional)</label>
+                <textarea id="mood-notes" rows="3" placeholder="Why are you feeling this way?"></textarea>
+            </div>
+            
+            <div class="button-group">
+                <button class="btn btn-primary" id="save-mood-btn">
+                    <i class="fas fa-save"></i> Save Mood
+                </button>
+                <button class="btn btn-secondary" id="clear-mood-btn">
+                    <i class="fas fa-times"></i> Clear
+                </button>
+            </div>
+        </div>
+
+        <!-- Mood History -->
+        <div class="card">
+            <div class="card-header">
+                <h3>Mood History</h3>
+                <div class="date-filter">
+                    <select id="time-filter">
+                        <option value="7">Last 7 Days</option>
+                        <option value="30">Last 30 Days</option>
+                        <option value="all">All Time</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="mood-history" id="mood-history">
+                <div class="empty-state">
+                    <i class="fas fa-chart-line"></i>
+                    <p>No mood logs yet. Log your first mood above!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mood Chart -->
+        <div class="card">
+            <h3>Mood Overview</h3>
+            <div class="mood-chart" id="mood-chart">
+                <!-- Chart will be generated here -->
+                <div class="chart-placeholder">
+                    <p>Mood data will appear here after logging</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (Same as other pages) -->
+    <footer class="footer">
+       <p>&copy; 2025 LifeLog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
