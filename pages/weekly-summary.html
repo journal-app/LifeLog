@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Summary - LifeLog</title>
+</head>
+<body>
+    <!-- Navigation (Same as other pages) -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>LifeLog</h1>
+            </div>
+            
+            <div class="nav-menu">
+                <a href="../index.html" class="nav-link">
+                    <i class="fas fa-home"></i> Home
+                </a>
+                <a href="journal.html" class="nav-link">
+                    <i class="fas fa-book"></i> Journal
+                </a>
+                <a href="habit.html" class="nav-link">
+                    <i class="fas fa-chart-line"></i> Habit
+                </a>
+                <a href="mood.html" class="nav-link">
+                    <i class="fas fa-smile"></i> Mood
+                </a>
+                <a href="todo.html" class="nav-link">
+                    <i class="fas fa-tasks"></i> To-Do
+                </a>
+                <a href="weekly-summary.html" class="nav-link active">
+                    <i class="fas fa-calendar-week"></i> Weekly
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Page Header -->
+        <div class="page-header">
+            <h2><i class="fas fa-calendar-week"></i> Weekly Summary</h2>
+            <p>Your weekly overview of journals, moods, habits, and tasks</p>
+        </div>
+
+        <!-- Week Selector -->
+        <div class="week-selector">
+            <h3>Week: <span id="week-display">This Week</span></h3>
+            <div class="week-buttons">
+                <button class="week-btn" id="prev-week">
+                    <i class="fas fa-chevron-left"></i> Previous
+                </button>
+                <button class="week-btn active" id="current-week">Current Week</button>
+                <button class="week-btn" id="next-week">
+                    Next <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Stats Summary -->
+        <div class="stats-summary">
+            <div class="summary-stat">
+                <div class="stat-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <div class="stat-info">
+                    <div class="stat-num" id="journal-count">0</div>
+                    <div class="stat-label">Journal Entries</div>
+                </div>
+            </div>
+            
+            <div class="summary-stat">
+                <div class="stat-icon">
+                    <i class="fas fa-smile"></i>
+                </div>
+                <div class="stat-info">
+                    <div class="stat-num" id="mood-count">0</div>
+                    <div class="stat-label">Mood Logs</div>
+                </div>
+            </div>
+            
+            <div class="summary-stat">
+                <div class="stat-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="stat-info">
+                    <div class="stat-num" id="habit-count">0</div>
+                    <div class="stat-label">Habit Checks</div>
+                </div>
+            </div>
+            
+            <div class="summary-stat">
+                <div class="stat-icon">
+                    <i class="fas fa-tasks"></i>
+                </div>
+                <div class="stat-info">
+                    <div class="stat-num" id="task-count">0</div>
+                    <div class="stat-label">Tasks Completed</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Summary Cards -->
+        <div class="summary-cards">
+            <!-- Journal Summary -->
+            <div class="summary-card">
+                <div class="card-header">
+                    <h3><i class="fas fa-book"></i> Journal Summary</h3>
+                </div>
+                <div class="card-content">
+                    <div class="empty-state" id="journal-empty">
+                        <i class="fas fa-book-open"></i>
+                        <p>No journal entries this week</p>
+                    </div>
+                    <div class="journal-preview" id="journal-preview"></div>
+                </div>
+            </div>
+
+            <!-- Mood Summary -->
+            <div class="summary-card">
+                <div class="card-header">
+                    <h3><i class="fas fa-smile"></i> Mood Summary</h3>
+                </div>
+                <div class="card-content">
+                    <div class="empty-state" id="mood-empty">
+                        <i class="fas fa-chart-line"></i>
+                        <p>No mood logs this week</p>
+                    </div>
+                    <div class="mood-chart" id="mood-chart">
+                        <!-- Mood distribution will go here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Habit Summary -->
+            <div class="summary-card">
+                <div class="card-header">
+                    <h3><i class="fas fa-chart-line"></i> Habit Summary</h3>
+                </div>
+                <div class="card-content">
+                    <div class="empty-state" id="habit-empty">
+                        <i class="fas fa-tasks"></i>
+                        <p>No habit data this week</p>
+                    </div>
+                    <div class="habit-stats" id="habit-stats"></div>
+                </div>
+            </div>
+
+            <!-- Task Summary -->
+            <div class="summary-card">
+                <div class="card-header">
+                    <h3><i class="fas fa-tasks"></i> Task Summary</h3>
+                </div>
+                <div class="card-content">
+                    <div class="empty-state" id="task-empty">
+                        <i class="fas fa-clipboard-list"></i>
+                        <p>No tasks completed this week</p>
+                    </div>
+                    <div class="task-progress" id="task-progress"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Weekly Insights -->
+        <div class="insights-card">
+            <h3><i class="fas fa-lightbulb"></i> Weekly Insights</h3>
+            <div class="insights-content" id="insights-content">
+                <p>Complete your daily activities to see insights here!</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (Same as other pages) -->
+    <footer class="footer">
+       <p>&copy; 2025 LifeLog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
