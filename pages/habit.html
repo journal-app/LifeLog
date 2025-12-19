@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Tracker - LifeLog</title>
+    <link rel="stylesheet" href="../css/habit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="../JS/auth-redirect.js"></script>
+</head>
+<body>
+    <!-- Navigation (EXACT SAME as Journal Page) -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>LifeLog</h1>
+            </div>
+            
+           <div class="nav-menu">
+                <a href="../index.html" class="nav-link">
+                    <i class="fas fa-home"></i> Home
+                </a>
+                <a href="journal.html" class="nav-link">
+                    <i class="fas fa-book"></i> Journal
+                </a>
+                <a href="habit.html" class="nav-link active">
+                    <i class="fas fa-chart-line"></i> Habit
+                </a>
+                <a href="mood.html" class="nav-link">
+                    <i class="fas fa-smile"></i> Mood
+                </a>
+                <a href="todo.html" class="nav-link">
+                    <i class="fas fa-tasks"></i> To-Do
+                </a>
+                <a href="weekly-summary.html" class="nav-link">
+                    <i class="fas fa-calendar-week"></i> Weekly
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Page Header -->
+        <div class="page-header">
+            <h2><i class="fas fa-chart-line"></i> Habit Tracker</h2>
+            <p>Build consistency by tracking your daily routines</p>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-box">
+            <div class="stat">
+                <span class="stat-num" id="streak-count">0</span>
+                <span class="stat-text">Day Streak</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num" id="completed-today">0</span>
+                <span class="stat-text">Today</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num" id="total-habits">0</span>
+                <span class="stat-text">Total Habits</span>
+            </div>
+        </div>
+
+        <!-- Add Habit Form -->
+        <div class="card">
+            <h3>Add New Habit</h3>
+            
+            <div class="form-group">
+                <label>Habit Name</label>
+                <input type="text" id="habit-name" placeholder="e.g., Drink 8 glasses of water">
+            </div>
+            
+            <div class="form-group">
+                <label>Category</label>
+                <select id="habit-category">
+                    <option>Health & Fitness</option>
+                    <option>Learning & Study</option>
+                    <option>Work & Productivity</option>
+                    <option>Personal Growth</option>
+                </select>
+            </div>
+            
+            <div class="button-group">
+                <button class="btn btn-primary" id="add-habit-btn">
+                    <i class="fas fa-plus"></i> Add Habit
+                </button>
+                <button class="btn btn-secondary" id="clear-all-btn">
+                    <i class="fas fa-trash"></i> Clear All
+                </button>
+            </div>
+        </div>
+
+        <!-- Today's Habits -->
+        <div class="card">
+            <div class="card-header">
+                <h3>Today's Habits</h3>
+                <div class="date-display">
+                    <span id="today-date">Today</span>
+                </div>
+            </div>
+            
+            <div class="habits-list" id="habits-list">
+                <div class="empty-state">
+                    <i class="fas fa-clipboard-list"></i>
+                    <p>No habits yet. Add your first habit above!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (EXACT SAME as Journal Page) -->
+    <footer class="footer">
+        <p>&copy; 2025 LifeLog. All rights reserved.</p>
+        <script src="../JS/habit.js"></script>
+    </footer>
+</body>
+</html>

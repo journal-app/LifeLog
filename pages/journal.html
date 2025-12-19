@@ -1,17 +1,123 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="journal.css">
-    </head>
-    <body>
-        <aside>
-            <a href="../index.html"><pre><img src="home.png" alt="">&nbsp;&nbsp;Home</pre></a>
-            <a href="#"> <pre><img src="journal.png" alt="">&nbsp;&nbsp;Journal</pre></a>
-            <a href="#"><pre><img src="habit.png" alt="">&nbsp;&nbsp;Habits</pre></a>
-            <a href="#"><pre><img src="moods.png" alt="">&nbsp;&nbsp;Mood</pre></a>
-            <a href="#"><pre><img src="to-do-list.png" alt="">&nbsp;&nbsp;To-do-list</pre></a>
-            <a href="#"><pre><img src="summary.png" alt="">&nbsp;&nbsp;Summary</pre></a>
-        </aside>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal - LifeLog</title>
+    <link rel="stylesheet" href="../css/journal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="../JS/auth-redirect.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>LifeLog</h1>
+            </div>
+            
+            <div class="nav-menu">
+                <a href="../index.html" class="nav-link">
+                    <i class="fas fa-home"></i> Home
+                </a>
+                <a href="journal.html" class="nav-link active">
+                    <i class="fas fa-book"></i> Journal
+                </a>
+                <a href="habit.html" class="nav-link">
+                    <i class="fas fa-chart-line"></i> Habit
+                </a>
+                <a href="mood.html" class="nav-link">
+                    <i class="fas fa-smile"></i> Mood
+                </a>
+                <a href="todo.html" class="nav-link">
+                    <i class="fas fa-tasks"></i> To-Do
+                </a>
+                <a href="weekly-summary.html" class="nav-link">
+                    <i class="fas fa-calendar-week"></i> Weekly
+                </a>
+            </div>
+        </div>
+    </nav>
 
-    </body>
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Header -->
+        <div class="page-header">
+            <h2><i class="fas fa-book"></i> My Journal</h2>
+            <p>Write your daily thoughts and memories</p>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-box">
+            <div class="stat">
+                <span class="stat-num" id="total-entries">0</span>
+                <span class="stat-text">Entries</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num" id="today-date">Today</span>
+                <span class="stat-text" id="current-date">Date</span>
+            </div>
+        </div>
+
+        <!-- Journal Form -->
+        <div class="card">
+            <h3>New Journal Entry</h3>
+            
+            <div class="form-group">
+                <label>Title</label>
+                <input type="text" id="entry-title" placeholder="What's on your mind?">
+            </div>
+            
+            <div class="form-group">
+                <label>How do you feel?</label>
+                <select id="entry-mood">
+                    <option>Happy</option>
+                    <option>Good</option>
+                    <option>Neutral</option>
+                    <option>Tired</option>
+                    <option>Thoughtful</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label>Write here</label>
+                <textarea id="entry-content" rows="6" placeholder="Start writing..."></textarea>
+                <div class="text-count">Characters: <span id="char-count">0</span></div>
+            </div>
+            
+            <div class="button-group">
+                <button class="btn btn-primary" id="save-btn">
+                    <i class="fas fa-save"></i> Save Entry
+                </button>
+                <button class="btn btn-secondary" id="clear-btn">
+                    <i class="fas fa-times"></i> Clear
+                </button>
+            </div>
+        </div>
+
+        <!-- Saved Entries -->
+        <div class="card">
+            <div class="card-header">
+                <h3>Previous Entries</h3>
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Search entries...">
+                    <button class="btn-small" id="search-btn">Search</button>
+                </div>
+            </div>
+            
+            <div class="entries-list" id="entries-list">
+                <div class="empty-state">
+                    <i class="fas fa-book-open"></i>
+                    <p>No journal entries yet</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+       <p>&copy; 2025 LifeLog. All rights reserved.</p>
+       <script src="../JS/journal.js"></script>
+    </footer>
+</body>
 </html>

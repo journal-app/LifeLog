@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List - LifeLog</title>
+    <link rel="stylesheet" href="../css/todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="../JS/auth-redirect.js"></script>
+</head>
+<body>
+    <!-- Navigation (Same as other pages) -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>LifeLog</h1>
+            </div>
+            
+            <div class="nav-menu">
+                <a href="../index.html" class="nav-link">
+                    <i class="fas fa-home"></i> Home
+                </a>
+                <a href="journal.html" class="nav-link">
+                    <i class="fas fa-book"></i> Journal
+                </a>
+                <a href="habit.html" class="nav-link">
+                    <i class="fas fa-chart-line"></i> Habit
+                </a>
+                <a href="mood.html" class="nav-link">
+                    <i class="fas fa-smile"></i> Mood
+                </a>
+                <a href="todo.html" class="nav-link active">
+                    <i class="fas fa-tasks"></i> To-Do
+                </a>
+                <a href="weekly-summary.html" class="nav-link">
+                    <i class="fas fa-calendar-week"></i> Weekly
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Page Header -->
+        <div class="page-header">
+            <h2><i class="fas fa-tasks"></i> Daily To-Do List</h2>
+            <p>Organize your tasks and boost your productivity</p>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-box">
+            <div class="stat">
+                <span class="stat-num" id="total-tasks">0</span>
+                <span class="stat-text">Total Tasks</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num" id="completed-tasks">0</span>
+                <span class="stat-text">Completed</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num" id="pending-tasks">0</span>
+                <span class="stat-text">Pending</span>
+            </div>
+        </div>
+
+        <!-- Add New Task Form -->
+        <div class="card">
+            <h3>Add New Task</h3>
+            
+            <div class="form-group">
+                <label>Task Description</label>
+                <input type="text" id="task-input" placeholder="What needs to be done?" maxlength="100">
+                <div class="text-hint">Maximum 100 characters</div>
+            </div>
+            
+            <div class="button-group">
+                <button class="btn btn-primary" id="add-btn">
+                    <i class="fas fa-plus"></i> Add Task
+                </button>
+                <button class="btn btn-secondary" id="clear-all-btn">
+                    <i class="fas fa-trash-alt"></i> Clear All
+                </button>
+            </div>
+        </div>
+
+        <!-- Tasks List -->
+        <div class="card">
+            <div class="card-header">
+                <h3>My Tasks</h3>
+                <div class="filter-options">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="pending">Pending</button>
+                    <button class="filter-btn" data-filter="completed">Completed</button>
+                </div>
+            </div>
+            
+            <div class="tasks-list" id="tasks-list">
+                <div class="empty-state">
+                    <i class="fas fa-clipboard-list"></i>
+                    <p>No tasks yet. Add your first task above!</p>
+                </div>
+            </div>
+            
+            <div class="list-footer">
+                <div class="progress-info">
+                    <span id="progress-text">0% complete</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (Same as other pages) -->
+    <footer class="footer">
+       <p>&copy; 2025 LifeLog. All rights reserved.</p>
+       <script src="../JS/todo.js"></script>
+    </footer>
+</body>
+</html>
