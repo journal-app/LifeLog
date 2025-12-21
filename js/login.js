@@ -1,5 +1,3 @@
-// Login Page - Simple & Clean
-
 // When page loads
 window.onload = function() {
     setupLoginPage();
