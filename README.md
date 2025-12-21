@@ -1,13 +1,10 @@
 <h1 align="center" style="font-size: 80px; color:#4CAF50; font-weight:bold;">
-  LifeLog  Personal Journal Web Application
+  LifeLog – Personal Journal Web Application
 </h1>
-
 
 <h1 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Arial+Black&size=40&duration=3500&pause=700&color=4CAF50&center=true&vCenter=true&width=1500&lines=LifeLog+-+Your+Personal+Journal+and+Productivity+Dashboard;Capture+Thoughts+%7C+Track+Habits+%7C+Visualize+Growth" alt="Typing SVG" />
 </h1>
-
-
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
@@ -15,19 +12,16 @@
   <a href="#"><img src="https://img.shields.io/badge/Contributions-Welcome-lightblue.svg" alt="Contributions"></a>
 </p>
 
-Group Members
----
-
+## Group Members
 
 ![Dawit Lulie](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=1E90FF&width=400&height=50&lines=Dawit+Lulie)
-
 ![Haset Tesfaye](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=00CED1&width=400&height=50&lines=Haset+Tesfaye)  
 ![Emran Seid](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=FF8C00&width=400&height=50&lines=Emran+Seid)  
 ![Kirubel Anteneh](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=8A2BE2&width=400&height=50&lines=Kirubel+Anteneh)  
 ![Kidus Tessema](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=FF1493&width=400&height=50&lines=Kidus+Tessema)  
 ![Feven Tassew](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=32CD32&width=400&height=50&lines=Feven+Tassew)
 
-
+---
 
 ## Project Taglines
 
@@ -40,29 +34,33 @@ Group Members
 
 *Seamless, responsive, and intuitive — stay organized, motivated, and mindful every day.*
 
-## Table of contents
+---
+
+## Table of Contents
 - [Overview](#overview)  
 - [Features](#features)  
 - [System Architecture](#system-architecture)  
-- [Tech Stack](#tech-stack)  
+- [Technology Stack](#technology-stack)  
 - [Installation](#installation)  
 - [Usage Guide](#usage-guide)  
 - [Screenshots & UI Mockups](#screenshots--ui-mockups)  
+- [Folder Structure](#project-folder-structure)  
 - [Future Enhancements](#future-enhancements)  
-- [Contributing](#contributing)   
+- [Contributing](#contributing)  
 - [License](#license)  
 - [Acknowledgements](#acknowledgements)
-- [Folder Structure](#Project-Folder-Structure)
 
 ---
 
 ## Overview
 
-LifeLog is a personal journaling and productivity web app designed to help users record thoughts, track habits, monitor moods, and manage daily tasks. It provides a unified, responsive dashboard accessible on desktop, tablet, and mobile devices.  
+LifeLog is a personal journaling and productivity web application designed to help users record thoughts, track habits, monitor moods, and manage daily tasks in one unified platform.
 
-The app is built with HTML, CSS, and JavaScript and works completely offline using browser Local Storage. This ensures that all data remains secure on the user's device.  
+The application now includes a simple authentication flow using Login and Sign-up pages. Users must log in before accessing core features such as the Journal, Habit Tracker, Mood Tracker, To-Do List, and Weekly Summary. Page access is controlled on the client side using JavaScript and browser Local Storage.
 
-Future versions may include cloud storage, authentication, and AI-powered insights such as activity summarization, sentiment analysis, and habit suggestions.
+LifeLog is built with HTML, CSS, and JavaScript and primarily works offline, storing user data securely in the browser after authentication. This ensures a smooth and private user experience without requiring a backend server.
+
+Future versions may introduce cloud storage, advanced authentication, and AI-powered insights such as activity summarization, sentiment analysis, and habit recommendations.
 
 ---
 
@@ -70,13 +68,16 @@ Future versions may include cloud storage, authentication, and AI-powered insigh
 
 | Module | Description |
 |:--|:--|
+| User Authentication | Login and Sign-up system with protected page access. |
 | Journal Entry Management | Create, view, and delete personal journal entries easily. |
 | Habit Tracker | Track daily routines with interactive checkboxes. |
 | Mood Tracker | Log daily moods with optional notes. |
 | Daily To-Do List | Add, mark, or remove tasks to stay organized. |
 | Weekly Progress Summary | Review a weekly overview of habits, moods, and tasks. |
+| Route Protection | Prevents unauthorized access using auth-redirect.js. |
 | Responsive UI | Adapts seamlessly to desktop, tablet, and mobile. |
-| Offline Storage | Data is stored securely in browser Local Storage. |
+| Local Storage | User data stored securely after authentication. |
+| Animated Dashboard | Smooth transitions and typing SVG animations for a dynamic experience. |
 
 ---
 
@@ -84,13 +85,17 @@ Future versions may include cloud storage, authentication, and AI-powered insigh
 
 ```plaintext
 User
+ ├── Login / Sign-up
  ├── Journal Entry
  ├── Habit Tracker
  ├── Mood Tracker
  ├── To-Do List
  └── Weekly Summary
         ↓
+ Authentication Check (auth-redirect.js)
+        ↓
    Local Storage (Client-Side)
+
 ```
 
 ## Technology Stack
