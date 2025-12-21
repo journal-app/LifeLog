@@ -172,7 +172,9 @@ Experience LifeLog in action:
 
 
 # To-Do List 
-<img width="938" height="647" alt="image" src="https://github.com/user-attachments/assets/1805e81b-a9bf-4d29-9e04-9812241b7d1b" />
+<img width="1893" height="888" alt="image" src="https://github.com/user-attachments/assets/b9b9a745-e28b-480b-ac53-734f274bde08" />
+<img width="1889" height="630" alt="image" src="https://github.com/user-attachments/assets/585a2aae-9201-4f2b-9c82-3e84ceff2858" />
+
 
 # Weekly Summary
 
