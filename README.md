@@ -153,7 +153,7 @@ Experience LifeLog in action:
 # Journal Entry 
 <img width="1893" height="809" alt="image" src="https://github.com/user-attachments/assets/f8d0141c-a0b8-4d0f-8a6a-b69e3a0485c7" />
 <img width="1893" height="598" alt="image" src="https://github.com/user-attachments/assets/e8814c50-a8f3-45a1-adc7-ae64134deee9" />
-<img width="1897" height="632" alt="image" src="https://github.com/user-attachments/assets/cb83bb0b-944c-44d6-a96a-0eeef48ce211" />
+<img width="1882" height="620" alt="image" src="https://github.com/user-attachments/assets/e1ef908b-fece-43ee-95eb-82647aa6ca89" />
 
 
 
