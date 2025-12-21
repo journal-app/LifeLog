@@ -122,7 +122,7 @@ Experience LifeLog in action:
 - **Offline-ready:** All data stored securely in your browser  
 - **Cross-device Compatible:** Works on desktop, tablet, and mobile  
 
- **Try it live:** [LifeLog Live Demo](https://lifelog.vercel.app)  
+ **Try it live:** lifelogger.netlify.app 
  **Source Code:** [GitHub Repository](https://github.com/journal-app/JournalApp.git)
 
 *Quick, easy, and ready to enhance your productivity today!*
