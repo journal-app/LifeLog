@@ -192,6 +192,7 @@ Experience LifeLog in action:
 
 ---
 ## Project Folder Structure
+``` bash
 
 LifeLog/
 │
