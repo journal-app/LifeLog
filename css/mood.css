@@ -1,6 +1,5 @@
 /* Mood Tracker Specific Styles */
 
-/* Same base styles as other pages */
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +13,7 @@ body {
     line-height: 1.6;
 }
 
-/* Navigation (Same as other pages) */
+/* Navigation*/
 .main-nav {
     background: #2c3e50;
     padding: 1rem 0;
@@ -424,69 +423,161 @@ textarea:focus {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-    .nav-container {
+
+/* Extra small devices (<480px) */
+@media (max-width: 480px) {
+    .page-header h2 {
+        font-size: 1.5rem;
         flex-direction: column;
+        gap: 0.3rem;
+    }
+
+    .page-header p {
+        font-size: 0.9rem;
+    }
+
+    .stats-box {
+        gap: 0.8rem;
+    }
+
+    .stat-num {
+        font-size: 1.5rem;
+    }
+
+    .stat-text {
+        font-size: 0.8rem;
+    }
+
+    .mood-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 1rem;
+    }
+
+    .mood-label {
+        font-size: 0.75rem;
+    }
+
+    textarea {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.6rem 1rem;
+    }
+
+    .mood-log-date, .mood-log-text, .mood-log-notes {
+        font-size: 0.8rem;
+    }
+
+    .chart-placeholder p {
+        font-size: 0.85rem;
+    }
+}
+
+/* Small phones / tablets (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .page-header h2 {
+        font-size: 1.7rem;
+    }
+
+    .page-header p {
+        font-size: 1rem;
+    }
+
+    .stats-box {
         gap: 1rem;
     }
-    
-    .nav-menu {
-        flex-wrap: wrap;
-        justify-content: center;
+
+    .stat-num {
+        font-size: 1.8rem;
     }
-    
+
+    .stat-text {
+        font-size: 0.85rem;
+    }
+
+    .mood-icon {
+        width: 55px;
+        height: 55px;
+        font-size: 1.4rem;
+    }
+
+    .mood-label {
+        font-size: 0.85rem;
+    }
+
+    .card h3 {
+        font-size: 1.3rem;
+    }
+
+    textarea {
+        font-size: 0.95rem;
+    }
+
+    .btn {
+        font-size: 0.95rem;
+        padding: 0.7rem 1.2rem;
+    }
+
+    .chart-placeholder p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Tablets / small desktops (769px - 900px) */
+@media (min-width: 769px) and (max-width: 900px) {
     .stats-box {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .stat {
-        width: 100%;
-        max-width: 300px;
+        width: 80%;
+        max-width: 350px;
     }
-    
+
     .mood-selection {
-        gap: 1rem;
+        gap: 1.2rem;
     }
-    
+
     .mood-icon {
-        width: 60px;
-        height: 60px;
-        font-size: 1.5rem;
+        width: 65px;
+        height: 65px;
+        font-size: 1.6rem;
     }
-    
-    .card-header {
-        flex-direction: column;
-        align-items: stretch;
+
+    .card h3 {
+        font-size: 1.4rem;
     }
-    
+
     .button-group {
-        flex-direction: column;
-    }
-    
-    .btn {
-        width: 100%;
-    }
-    
-    .mood-log {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1rem;
+        flex-direction: row;
+        gap: 0.8rem;
     }
 }
 
-@media (max-width: 480px) {
+/* Large desktops (>1200px) */
+@media (min-width: 1201px) {
+    .stats-box {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
     .mood-selection {
-        gap: 0.5rem;
+        gap: 2rem;
     }
-    
+
     .mood-icon {
-        width: 50px;
-        height: 50px;
-        font-size: 1.2rem;
+        width: 70px;
+        height: 70px;
+        font-size: 2rem;
     }
-    
-    .mood-label {
-        font-size: 0.8rem;
+
+    .card h3 {
+        font-size: 1.5rem;
     }
 }
+

@@ -101,9 +101,7 @@ function loadWeeklyData() {
     generateInsights(journalData, moodData, habitData, taskData);
 }
 
-// ============================================
 // DATA LOADING FUNCTIONS
-// ============================================
 
 // Load journal entries for the week
 function loadJournalData(weekStart, weekEnd) {
@@ -189,9 +187,7 @@ function loadTaskData(weekStart, weekEnd) {
     return weekTasks;
 }
 
-// ============================================
 // STATISTICS UPDATE
-// ============================================
 
 // Update all statistics
 function updateStats(journalData, moodData, habitData, taskData) {
@@ -213,9 +209,7 @@ function updateStats(journalData, moodData, habitData, taskData) {
     document.getElementById('task-count').textContent = completedTasks;
 }
 
-// ============================================
 // DISPLAY FUNCTIONS
-// ============================================
 
 // Display journal summary
 function displayJournalSummary(journalData) {
@@ -273,7 +267,7 @@ function displayMoodSummary(moodData) {
         moodCounts[mood.mood] = (moodCounts[mood.mood] || 0) + 1;
     });
     
-    // Define mood colors (matching your mood.js)
+    // Define mood colors (matching mood.js)
     const moodColors = {
         'excellent': '#2ecc71',
         'good': '#3498db',
@@ -392,9 +386,7 @@ function displayTaskSummary(taskData) {
     container.innerHTML = html;
 }
 
-// ============================================
 // INSIGHTS GENERATION
-// ============================================
 
 // Generate weekly insights
 function generateInsights(journalData, moodData, habitData, taskData) {

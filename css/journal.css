@@ -337,45 +337,251 @@ textarea {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
-    .nav-container {
+
+/* Extra small devices (<480px) */
+@media (max-width: 480px) {
+    .page-header h2 {
+        font-size: 1.6rem;
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+
+    .page-header p {
+        font-size: 1rem;
+    }
+
+    .stats-box {
         flex-direction: column;
         gap: 1rem;
     }
-    
-    .nav-menu {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-    .stats-box {
-        flex-direction: column;
-        align-items: center;
-    }
-    
+
     .stat {
-        width: 100%;
-        max-width: 300px;
+        min-width: 100px;
+        padding: 1rem;
     }
-    
-    .card-header {
+
+    .card h3 {
+        font-size: 1.3rem;
+    }
+
+    .form-group input,
+    .form-group select,
+    textarea {
+        padding: 0.6rem;
+        font-size: 0.9rem;
+    }
+
+    .button-group {
         flex-direction: column;
-        align-items: stretch;
+        gap: 0.5rem;
     }
-    
-    .search-box {
+
+    .btn {
         width: 100%;
+        font-size: 0.95rem;
     }
-    
+
+    .entries-list .entry-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .entry-title {
+        font-size: 1rem;
+    }
+
+    .entry-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.3rem;
+    }
+
+    .entry-actions {
+        width: 100%;
+        text-align: left;
+    }
+
+    .search-box {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
     #search-input {
         width: 100%;
     }
-    
+}
+
+/* Small tablets / large phones (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .page-header h2 {
+        font-size: 1.8rem;
+        flex-direction: column;
+        gap: 0.4rem;
+    }
+
+    .page-header p {
+        font-size: 1.05rem;
+    }
+
+    .stats-box {
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+
+    .stat {
+        min-width: 150px;
+        padding: 1.2rem;
+    }
+
+    .card h3 {
+        font-size: 1.4rem;
+    }
+
+    .form-group input,
+    .form-group select,
+    textarea {
+        padding: 0.7rem;
+        font-size: 1rem;
+    }
+
     .button-group {
         flex-direction: column;
+        gap: 0.8rem;
     }
-    
+
     .btn {
         width: 100%;
+    }
+
+    .entries-list .entry-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.8rem;
+    }
+
+    .entry-title {
+        font-size: 1.05rem;
+    }
+
+    .entry-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .entry-actions {
+        width: 100%;
+        text-align: left;
+    }
+
+    .search-box {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    #search-input {
+        width: 100%;
+    }
+}
+
+/* Tablets (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        padding: 0 2rem;
+    }
+
+    .page-header h2 {
+        font-size: 2rem;
+    }
+
+    .page-header p {
+        font-size: 1.1rem;
+    }
+
+    .stats-box {
+        justify-content: space-around;
+        gap: 1.5rem;
+    }
+
+    .stat {
+        min-width: 180px;
+        padding: 1.3rem;
+    }
+
+    .card h3 {
+        font-size: 1.5rem;
+    }
+
+    .form-group input,
+    .form-group select,
+    textarea {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+
+    .button-group {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .btn {
+        flex: 1;
+    }
+
+    .entries-list .entry-card {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .entry-title {
+        font-size: 1.15rem;
+    }
+
+    .entry-header {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .entry-actions {
+        width: auto;
+        text-align: right;
+    }
+
+    .search-box {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    #search-input {
+        width: auto;
+        flex: 1;
+    }
+}
+
+/* Large desktops (>1200px) */
+@media (min-width: 1201px) {
+    .container {
+        max-width: 1200px;
+        padding: 0 3rem;
+    }
+
+    .stats-box {
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .card {
+        padding: 2.5rem;
+    }
+
+    .entries-list .entry-card {
+        gap: 1.5rem;
+    }
+
+    .entry-header {
+        gap: 1.2rem;
     }
 }
