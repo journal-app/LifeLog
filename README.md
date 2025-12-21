@@ -276,12 +276,13 @@ LifeLog/
 ```
 ## Future Enhancements
 
-| **Enhancement**                 | **Description**                                                  |
-| :------------------------------ | :--------------------------------------------------------------- |
-| **Cloud Storage & Authentication** | Enable multi-device use with secure login.                     |
-| **AI-powered Insights**          | Automatic summarization, mood analysis, and habit suggestions. |
-| **Mobile App Integration**       | Extend accessibility through native mobile apps.               |
-| **Data Export**                  | Export journal entries, habits, and tasks to PDF or CSV.       |
+| Enhancement | Description |
+|-------------|-------------|
+| **Cloud Storage & Authentication** | Enable multi-device use with secure login. |
+| **AI-powered Insights** | Automatic summarization, mood analysis, and habit suggestions. |
+| **Mobile App Integration** | Extend accessibility through native mobile apps. |
+| **Data Export** | Export journal entries, habits, and tasks to PDF or CSV. |
+
 
 
 ## License
