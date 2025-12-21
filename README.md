@@ -178,7 +178,11 @@ Experience LifeLog in action:
 
 # Weekly Summary
 
-<img width="936" height="660" alt="image" src="https://github.com/user-attachments/assets/70d58a3c-095a-4dde-a2e9-2b19499999bb" />
+<img width="1892" height="665" alt="image" src="https://github.com/user-attachments/assets/0e3e63e3-bb56-44aa-8262-b6a114e1e177" />
+<img width="1895" height="571" alt="image" src="https://github.com/user-attachments/assets/2aa5b8dc-b69f-4810-99ba-8edb04ab2e83" />
+<img width="1893" height="779" alt="image" src="https://github.com/user-attachments/assets/4494f501-0651-4e76-9945-956c8aac3e63" />
+
+
 
 
 
