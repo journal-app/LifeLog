@@ -1,5 +1,3 @@
-// Signup Page - Simple & Clean
-
 // When page loads
 window.onload = function() {
     setupSignupPage();
