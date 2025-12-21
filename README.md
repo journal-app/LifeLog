@@ -139,6 +139,13 @@ Experience LifeLog in action:
 # Home Page
 <img width="1893" height="882" alt="image" src="https://github.com/user-attachments/assets/dd6cdef3-5a9d-42a8-adc5-f81f2a34b8bd" />
 <img width="1889" height="730" alt="image" src="https://github.com/user-attachments/assets/7022e97d-bf34-4bad-b85d-23747ee0f2a0" />
+<img width="1884" height="491" alt="image" src="https://github.com/user-attachments/assets/a1663230-6767-4da3-9d73-84ff9352a5c9" />
+<img width="1890" height="772" alt="image" src="https://github.com/user-attachments/assets/3913fd0d-8b60-4f49-9828-1ae050d417eb" />
+<img width="1886" height="786" alt="image" src="https://github.com/user-attachments/assets/2ccc9037-2079-4450-8060-24c8e93c79e4" />
+
+
+
+
 
 
 
