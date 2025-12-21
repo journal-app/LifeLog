@@ -278,10 +278,12 @@ LifeLog/
 
 | Enhancement | Description |
 |-------------|-------------|
-| **Cloud Storage & Authentication** | Enable multi-device use with secure login. |
 | **AI-powered Insights** | Automatic summarization, mood analysis, and habit suggestions. |
 | **Mobile App Integration** | Extend accessibility through native mobile apps. |
 | **Data Export** | Export journal entries, habits, and tasks to PDF or CSV. |
+| **Dark Mode** | Add a dark/light theme toggle for better user experience. |
+| **Reminders & Notifications** | Schedule reminders for habits or tasks. |
+
 
 
 
