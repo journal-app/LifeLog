@@ -32,7 +32,7 @@
 - Monitor moods and emotional patterns  
 - Visualize your personal growth over time  
 
-*Seamless, responsive, and intuitive — stay organized, motivated, and mindful every day.*
+*Seamless, responsive, and intuitive stay organized, motivated, and mindful every day.*
 
 ---
 
