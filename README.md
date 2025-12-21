@@ -136,6 +136,10 @@ Experience LifeLog in action:
 
 ## <span style="color:red;">Screenshots & UI Mockups</span>     
 
+# Home Page
+<img width="1893" height="882" alt="image" src="https://github.com/user-attachments/assets/dd6cdef3-5a9d-42a8-adc5-f81f2a34b8bd" />
+
+
 
 # Journal Entry 
 <img width="911" height="650" alt="image" src="https://github.com/user-attachments/assets/7c44ae1a-34c6-430e-a016-b2d1023974b9" />
