@@ -157,7 +157,9 @@ Experience LifeLog in action:
 
 
 # Habit Tracker 
-<img width="1893" height="886" alt="image" src="https://github.com/user-attachments/assets/2f586d3e-06b3-416e-9979-9f65c184a106" />
+<img width="1892" height="798" alt="image" src="https://github.com/user-attachments/assets/e8504087-6ae2-47e6-899d-fab970306157" />
+<img width="1886" height="741" alt="image" src="https://github.com/user-attachments/assets/14ad6aae-c449-4f75-8827-025f7dcef63b" />
+
 
 
 
