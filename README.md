@@ -191,62 +191,79 @@ Experience LifeLog in action:
 
 
 ---
+## Project Folder Structure
 
-## Project Folder Structures
-```bash
 LifeLog/
 │
 ├── index.html
-│   └── Home page
+│   └── Main home page of the application (requires login)
+├── style.css
+│   └── Styles used only for the Home (index) page
+├── script.js
+│   └── JavaScript logic used only for the Home (index) page
 │
 ├── pages/
 │   ├── journal.html
-│   │   └── Journal page
+│   │   └── Journal page for writing and managing daily entries
 │   ├── habit.html
-│   │   └── Habit tracker page
+│   │   └── Habit tracker page for monitoring daily habits
 │   ├── mood.html
-│   │   └── Mood tracker page
+│   │   └── Mood tracker page for recording moods
 │   ├── todo.html
-│   │   └── To-Do list page
+│   │   └── To-Do list page for managing tasks
 │   ├── weekly-summary.html
-│   │   └── Weekly summary page
+│   │   └── Weekly summary page showing user progress
 │   ├── login.html
-│   │   └── Login page
+│   │   └── Login page for user authentication (public)
 │   └── signup.html
-│       └── Sign-up page
+│       └── Sign-up page for new user registration (public)
 │
 ├── css/
-│   ├── main.css
-│   │   └── Main stylesheet (imports all CSS files)
-│   ├── common.css
-│   │   └── Shared styles (layout, navbar, buttons)
-│   ├── home.css
 │   ├── journal.css
+│   │   └── Styles specific to the Journal page
 │   ├── habit.css
+│   │   └── Styles specific to the Habit tracker page
 │   ├── mood.css
+│   │   └── Styles specific to the Mood tracker page
 │   ├── todo.css
+│   │   └── Styles specific to the To-Do list page
 │   ├── weekly-summary.css
-│   └── auth.css
-│       └── Styles for login & signup pages
+│   │   └── Styles specific to the Weekly summary page
+│   ├── login.css
+│   │   └── Styles for the Login page
+│   └── signup.css
+│       └── Styles for the Sign-up page
 │
 ├── js/
 │   ├── home.js
+│   │   └── JavaScript logic for the Home page features
 │   ├── journal.js
+│   │   └── Handles journal entry functionality
 │   ├── habit.js
+│   │   └── Controls habit tracking logic
 │   ├── mood.js
+│   │   └── Manages mood tracking behavior
 │   ├── todo.js
+│   │   └── Handles task creation and completion
 │   ├── weekly-summary.js
-│   └── auth.js
-│       └── Authentication logic (login & signup)
+│   │   └── Generates weekly activity summaries
+│   ├── login.js
+│   │   └── Handles user login logic
+│   ├── signup.js
+│   │   └── Handles user registration logic
+│   └── auth-redirect.js
+│       └── Redirects unauthenticated users to Login or Sign-up pages
 │
 ├── assets/
 │   ├── images/
+│   │   └── Image assets used in the application
 │   └── icons/
+│       └── Icon assets used in the UI
 │
-├── docs/
-│   └── LifeLog-SRS.pdf
-│
-└── LICENSE
+└── docs/
+    └── LifeLog-SRS.pdf
+        └── Software Requirements Specification document
+
 
 
 ```
