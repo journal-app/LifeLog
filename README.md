@@ -164,7 +164,11 @@ Experience LifeLog in action:
 
 
 # Mood Tracker 
-<img width="934" height="655" alt="image" src="https://github.com/user-attachments/assets/187332e9-3b90-482d-bac1-b2e98a3a5125" />
+<img width="1895" height="857" alt="image" src="https://github.com/user-attachments/assets/93fe0f3c-eed2-49ce-9d45-38c9df70c545" />
+<img width="1895" height="746" alt="image" src="https://github.com/user-attachments/assets/e3c23d9d-d6a8-4d8a-a7fb-92cd52b80e6d" />
+<img width="1889" height="778" alt="image" src="https://github.com/user-attachments/assets/44dffb61-2d76-4967-b7cf-f1a0294bdc2f" />
+
+
 
 
 # To-Do List 
