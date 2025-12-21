@@ -111,7 +111,7 @@ User
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/journal-app/JournalApp.git
+git clone https://github.com/journal-app/LifeLog.git
 ```
 
 ## <span style="color:red;">Live Demo</span>
@@ -140,9 +140,9 @@ Experience LifeLog in action:
 
 
 
-## <span style="color:red;">Screenshots & UI Mockups</span>     
+# <span style="color:red;">Screenshots & UI Mockups</span>     
 
-# Home Page
+## Home Page
 <img width="1893" height="882" alt="image" src="https://github.com/user-attachments/assets/dd6cdef3-5a9d-42a8-adc5-f81f2a34b8bd" />
 <img width="1889" height="730" alt="image" src="https://github.com/user-attachments/assets/7022e97d-bf34-4bad-b85d-23747ee0f2a0" />
 <img width="1884" height="491" alt="image" src="https://github.com/user-attachments/assets/a1663230-6767-4da3-9d73-84ff9352a5c9" />
@@ -153,10 +153,7 @@ Experience LifeLog in action:
 
 
 
-
-
-
-# Journal Entry 
+## Journal Entry 
 <img width="1893" height="809" alt="image" src="https://github.com/user-attachments/assets/f8d0141c-a0b8-4d0f-8a6a-b69e3a0485c7" />
 <img width="1893" height="598" alt="image" src="https://github.com/user-attachments/assets/e8814c50-a8f3-45a1-adc7-ae64134deee9" />
 <img width="1882" height="620" alt="image" src="https://github.com/user-attachments/assets/e1ef908b-fece-43ee-95eb-82647aa6ca89" />
@@ -164,14 +161,14 @@ Experience LifeLog in action:
 
 
 
-# Habit Tracker 
+## Habit Tracker 
 <img width="1892" height="798" alt="image" src="https://github.com/user-attachments/assets/e8504087-6ae2-47e6-899d-fab970306157" />
 <img width="1894" height="718" alt="image" src="https://github.com/user-attachments/assets/82cfd2fc-9166-4ce9-a62c-3b771c5b8373" />
 
 
 
 
-# Mood Tracker 
+## Mood Tracker 
 <img width="1888" height="839" alt="image" src="https://github.com/user-attachments/assets/f4150dd7-2e44-4e9e-aff5-4f7136898028" />
 <img width="1895" height="746" alt="image" src="https://github.com/user-attachments/assets/e3c23d9d-d6a8-4d8a-a7fb-92cd52b80e6d" />
 <img width="1892" height="315" alt="image" src="https://github.com/user-attachments/assets/30e069ef-fa93-4640-a7d5-087d3fcae511" />
@@ -181,12 +178,12 @@ Experience LifeLog in action:
 
 
 
-# To-Do List 
+## To-Do List 
 <img width="1893" height="888" alt="image" src="https://github.com/user-attachments/assets/b9b9a745-e28b-480b-ac53-734f274bde08" />
 <img width="1889" height="630" alt="image" src="https://github.com/user-attachments/assets/585a2aae-9201-4f2b-9c82-3e84ceff2858" />
 
 
-# Weekly Summary
+## Weekly Summary
 
 <img width="1892" height="665" alt="image" src="https://github.com/user-attachments/assets/0e3e63e3-bb56-44aa-8262-b6a114e1e177" />
 <img width="1895" height="571" alt="image" src="https://github.com/user-attachments/assets/2aa5b8dc-b69f-4810-99ba-8edb04ab2e83" />
