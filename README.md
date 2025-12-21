@@ -151,7 +151,9 @@ Experience LifeLog in action:
 
 
 # Journal Entry 
-<img width="911" height="650" alt="image" src="https://github.com/user-attachments/assets/7c44ae1a-34c6-430e-a016-b2d1023974b9" />
+<img width="1880" height="883" alt="image" src="https://github.com/user-attachments/assets/6d440e47-92a6-4074-8f3f-14084a4701c2" />
+<img width="1892" height="620" alt="image" src="https://github.com/user-attachments/assets/8d2750cc-564c-4600-b6ad-d84267e3ca72" />
+
 
 
 # Habit Tracker 
