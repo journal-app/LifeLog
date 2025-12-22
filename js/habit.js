@@ -1,29 +1,25 @@
 // Habit Tracker App
-
 let habits = [];
 
 // Start app
-function startHabitApp() {
+window.onload = () => {
     showToday();
     loadHabits();
     setupButtons();
-    showHabits();
-}
+    renderHabits();
+};
 
 // Show today's date
 function showToday() {
-    const today = new Date();
-    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-    document.getElementById('today-date').textContent = today.toLocaleDateString('en-US', options);
+    const today = new Date().toLocaleDateString('en-US', { weekday:'long', year:'numeric', month:'long', day:'numeric' });
+    document.getElementById('today-date').textContent = today;
 }
 
 // Load habits from localStorage
 function loadHabits() {
     const saved = localStorage.getItem('lifeLogHabits');
-    if (saved) {
-        habits = JSON.parse(saved);
-        updateStats();
-    }
+    if (saved) habits = JSON.parse(saved);
+    updateStats();
 }
 
 // Save habits to localStorage
@@ -35,79 +31,47 @@ function saveHabits() {
 // Update statistics
 function updateStats() {
     const today = new Date().toDateString();
-    
-    // Count completed today
-    let completedToday = 0;
-    habits.forEach(habit => {
-        if (habit.dates && habit.dates[today]) {
-            completedToday++;
-        }
-    });
-    
-    // Update display
+    const completedToday = habits.filter(h => h.dates?.[today]).length;
     document.getElementById('completed-today').textContent = completedToday;
     document.getElementById('total-habits').textContent = habits.length;
-    
-    // Simple streak calculation
-    let streak = 0;
-    document.getElementById('streak-count').textContent = streak;
+    document.getElementById('streak-count').textContent = 0; // placeholder streak
 }
 
-// Setup button events
+// Setup buttons
 function setupButtons() {
-    // Add habit button
-    document.getElementById('add-habit-btn').onclick = addNewHabit;
-    
-    // Clear all button
-    document.getElementById('clear-all-btn').onclick = clearAllHabits;
-    
-    // Enter key to add habit
-    document.getElementById('habit-name').addEventListener('keypress', function(e) {
-        if (e.key === 'Enter') {
-            addNewHabit();
-        }
+    document.getElementById('add-habit-btn').onclick = addHabit;
+    document.getElementById('clear-all-btn').onclick = clearHabits;
+    document.getElementById('habit-name').addEventListener('keypress', e => { 
+        if(e.key==='Enter') addHabit(); 
     });
 }
 
 // Add new habit
-function addNewHabit() {
+function addHabit() {
     const nameInput = document.getElementById('habit-name');
     const name = nameInput.value.trim();
-    const category = document.getElementById('habit-category').value;
-    
-    if (!name) {
-        alert('Please enter a habit name');
-        return;
-    }
+    if (!name) return alert('Please enter a habit name');
     
     const newHabit = {
         id: Date.now(),
-        name: name,
-        category: category,
-        dates: {},
-        createdAt: new Date().toISOString()
+        name,
+        category: document.getElementById('habit-category').value,
+        dates: {}
     };
     
     habits.push(newHabit);
     saveHabits();
-    showHabits();
+    renderHabits();
     
-    // Clear input
     nameInput.value = '';
-    
     alert('Habit added successfully!');
 }
 
 // Toggle habit completion
-function toggleHabit(habitId) {
+function toggleHabit(id) {
     const today = new Date().toDateString();
-    const habit = habits.find(h => h.id === habitId);
+    const habit = habits.find(h => h.id === id);
     
-    if (!habit.dates) {
-        habit.dates = {};
-    }
-    
-    // Toggle for today
     if (habit.dates[today]) {
         delete habit.dates[today];
     } else {
@@ -115,40 +79,31 @@ function toggleHabit(habitId) {
     }
     
     saveHabits();
-    showHabits();
+    renderHabits();
 }
 
 // Clear all habits
-function clearAllHabits() {
+function clearHabits() {
     if (!confirm('Delete all habits?')) return;
-    
     habits = [];
     saveHabits();
-    showHabits();
+    renderHabits();
     alert('All habits cleared!');
 }
 
-// Show all habits
-function showHabits() {
+// Render habits
+function renderHabits() {
     const container = document.getElementById('habits-list');
     const today = new Date().toDateString();
-    
-    if (habits.length === 0) {
-        container.innerHTML = `
-            <div class="empty-state">
-                <i class="fas fa-clipboard-list"></i>
-                <p>No habits yet. Add your first habit above!</p>
-            </div>
-        `;
+
+    if (!habits.length) {
+        container.innerHTML = `<div class="empty-state"><i class="fas fa-clipboard-list"></i><p>No habits yet. Add your first habit above!</p></div>`;
         return;
     }
-    
-    let html = '';
-    
-    habits.forEach(habit => {
-        const completedToday = habit.dates && habit.dates[today];
-        
-        html += `
+
+    container.innerHTML = habits.map(habit => {
+        const done = habit.dates?.[today];
+        return `
             <div class="habit-item">
                 <div class="habit-info">
                     <div class="habit-name">${habit.name}</div>
@@ -156,21 +111,11 @@ function showHabits() {
                         <span class="habit-category">${habit.category}</span>
                     </div>
                 </div>
-                <div>
-                    <div class="check-btn ${completedToday ? 'checked' : ''}" 
-                         onclick="toggleHabit(${habit.id})">
-                        ${completedToday ? '✓' : ''}
-                    </div>
-                </div>
+                <div class="check-btn ${done ? 'checked' : ''}" onclick="toggleHabit(${habit.id})">${done?'✓':''}</div>
             </div>
         `;
-    });
-    
-    container.innerHTML = html;
+    }).join('');
 }
 
-// Make function available globally
+// Make toggle globally available
 window.toggleHabit = toggleHabit;
-
-// Start app when page loads
-window.onload = startHabitApp;
