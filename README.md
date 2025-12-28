@@ -123,6 +123,7 @@ Experience LifeLog in action:
 - **Cross-device Compatible:** Works on desktop, tablet, and mobile  
 
 **Try it live:** [lifelog-puce.vercel.app](https://lifelog-puce.vercel.app/)
+
 **Source Code:** [GitHub Repository](https://github.com/journal-app/JournalApp.git)
 
 
