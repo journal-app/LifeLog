@@ -282,6 +282,7 @@ LifeLog/
 | **Data Export** | Export journal entries, habits, and tasks to PDF or CSV. |
 | **Dark Mode** | Add a dark/light theme toggle for better user experience. |
 | **Reminders & Notifications** | Schedule reminders for habits or tasks. |
+| **Multiple device support** | enabling a same account is function on multiple device by. |
 
 
 
