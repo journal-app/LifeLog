@@ -12,30 +12,14 @@
   <a href="#"><img src="https://img.shields.io/badge/Contributions-Welcome-lightblue.svg" alt="Contributions"></a>
 </p>
 
-
-<h2 align="center">
-  <span style="
-    font-weight: 800;
-    font-size: 32px;
-    color: #4CAF50;
-    animation: pulse 1.5s infinite;
-  ">
-    Try it live →
-  </span>
+<h1 align="center">
+  <strong>Try it live →</strong>
   <strong>
-    <a href="https://lifelog-puce.vercel.app/" target="_blank" style="color:#000; text-decoration: underline;">
+    <a href="https://lifelog-puce.vercel.app/" target="_blank">
       https://lifelog-puce.vercel.app
     </a>
   </strong>
-</h2>
-
-<style>
-@keyframes pulse {
-  0% { opacity: 1; }
-  50% { opacity: 0.4; }
-  100% { opacity: 1; }
-}
-</style>
+</h1>
 
 
 
