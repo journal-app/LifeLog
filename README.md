@@ -12,7 +12,15 @@
   <a href="#"><img src="https://img.shields.io/badge/Contributions-Welcome-lightblue.svg" alt="Contributions"></a>
 </p>
 
-**Try it live:** [lifelog-puce.vercel.app](https://lifelog-puce.vercel.app/)
+<h2 align="center">
+  <a href="https://lifelog-puce.vercel.app/" target="_blank" style="text-decoration:none;">
+    <img 
+      src="https://readme-typing-svg.demolab.com?font=Arial+Black&size=36&duration=3000&pause=800&color=FF5722&center=true&vCenter=true&width=900&lines=🚀+TRY+LIFELOG+LIVE+NOW;Click+Here+to+Explore+the+App"
+      alt="Try LifeLog Live"
+    />
+  </a>
+</h2>
+
 
 **Source Code:** [GitHub Repository](https://github.com/journal-app/JournalApp.git)
 
