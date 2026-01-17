@@ -13,23 +13,15 @@
 </p>
 
 
+<h1 align="center">
+  <span style="color:#2E7D32; font-weight:800;">Try it live →</span>
+  <strong>
+    <a href="https://lifelog-puce.vercel.app/" target="_blank">
+      https://lifelog-puce.vercel.app
+    </a>
+  </strong>
+</h1>
 
-<h2 align="center" style="line-height: 1.4;">
-  <span style="vertical-align: middle;">
-    <img
-      src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=800&color=4CAF50&width=260&height=50&lines=Try+it+live"
-      alt="Try it live"
-      style="vertical-align: middle;"
-    />
-  </span>
-  <span style="vertical-align: middle;">
-    <strong>
-      <a href="https://lifelog-puce.vercel.app/" target="_blank">
-        https://lifelog-puce.vercel.app
-      </a>
-    </strong>
-  </span>
-</h2>
 
 
 
