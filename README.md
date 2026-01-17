@@ -12,6 +12,11 @@
   <a href="#"><img src="https://img.shields.io/badge/Contributions-Welcome-lightblue.svg" alt="Contributions"></a>
 </p>
 
+**Try it live:** [lifelog-puce.vercel.app](https://lifelog-puce.vercel.app/)
+
+**Source Code:** [GitHub Repository](https://github.com/journal-app/JournalApp.git)
+
+
 ## Group Members
 
 ![Dawit Lulie](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=1E90FF&width=400&height=50&lines=Dawit+Lulie)
@@ -121,11 +126,6 @@ Experience LifeLog in action:
 - **Interactive Dashboard:** Track habits, moods, and tasks in real-time  
 - **Offline-ready:** All data stored securely in your browser  
 - **Cross-device Compatible:** Works on desktop, tablet, and mobile  
-
-**Try it live:** [lifelog-puce.vercel.app](https://lifelog-puce.vercel.app/)
-
-**Source Code:** [GitHub Repository](https://github.com/journal-app/JournalApp.git)
-
 
 *Quick, easy, and ready to enhance your productivity today!*
 
