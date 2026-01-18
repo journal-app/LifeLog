@@ -134,3 +134,6 @@ function goToJournal() {
         window.location.href = 'journal.html';
     }, 1000);
 }
+
+
+
