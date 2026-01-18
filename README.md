@@ -12,14 +12,30 @@
   <a href="#"><img src="https://img.shields.io/badge/Contributions-Welcome-lightblue.svg" alt="Contributions"></a>
 </p>
 
+
+<h1 align="center">
+  <span style="color:#2E7D32; font-weight:800;">Try it live →</span>
+  <strong>
+    <a href="https://lifelog-puce.vercel.app/" target="_blank">
+      https://lifelog-puce.vercel.app
+    </a>
+  </strong>
+</h1>
+
+
+
+
+
+
 ## Group Members
 
 ![Dawit Lulie](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=1E90FF&width=400&height=50&lines=Dawit+Lulie)
-![Haset Tesfaye](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=00CED1&width=400&height=50&lines=Haset+Tesfaye)  
 ![Emran Seid](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=FF8C00&width=400&height=50&lines=Emran+Seid)  
 ![Kirubel Anteneh](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=8A2BE2&width=400&height=50&lines=Kirubel+Anteneh)  
 ![Kidus Tessema](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=FF1493&width=400&height=50&lines=Kidus+Tessema)  
 ![Feven Tassew](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=32CD32&width=400&height=50&lines=Feven+Tassew)
+![Haset Tesfaye](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=00CED1&width=400&height=50&lines=Haset+Tesfaye)  
+
 
 ---
 
@@ -121,11 +137,6 @@ Experience LifeLog in action:
 - **Interactive Dashboard:** Track habits, moods, and tasks in real-time  
 - **Offline-ready:** All data stored securely in your browser  
 - **Cross-device Compatible:** Works on desktop, tablet, and mobile  
-
-**Try it live:** [lifelog-puce.vercel.app](https://lifelog-puce.vercel.app/)
-
-**Source Code:** [GitHub Repository](https://github.com/journal-app/JournalApp.git)
-
 
 *Quick, easy, and ready to enhance your productivity today!*
 
