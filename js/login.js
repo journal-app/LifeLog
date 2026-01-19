@@ -12,7 +12,7 @@ function setupLoginPage() {
     document.getElementById('showPassword').addEventListener('click', togglePassword);
     
     // 3. Create demo user if needed
-    createDemoUser();
+    createDemoUser();    
 }
 
 // Handle login
