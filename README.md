@@ -26,8 +26,9 @@
 
 
 <h1 align="center">
-  <img src="https://img.shields.io/badge/Project%20Presentation%20Meeting%20Links%20%7C%20UI%2FUX%20Design%20Links%20(Figma)-FF1493?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://readme-typing-svg.demolab.com?font=Arial+Black&size=36&duration=0&pause=0&color=FF1493&center=true&vCenter=true&width=1500&lines=Project+Presentation+Meeting+Links+%7C+UI%2FUX+Design+Links+%28Figma%29" />
 </h1>
+
 
 
 
