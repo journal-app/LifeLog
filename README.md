@@ -25,9 +25,10 @@
 
 
 
-<h1 align="center" style="color:#FF1493; font-size:36px; font-weight:bold;">
-  Project Presentation Meeting Links | UI/UX Design Links (Figma)
+<h1 align="center">
+  <img src="https://img.shields.io/badge/Project%20Presentation%20Meeting%20Links%20%7C%20UI%2FUX%20Design%20Links%20(Figma)-FF1493?style=for-the-badge&logo=figma&logoColor=white" />
 </h1>
+
 
 
 
