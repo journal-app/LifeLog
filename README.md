@@ -25,28 +25,31 @@
 
 
 
-<h2 align="center" style="margin-top:40px; color:#2E7D32;">
-  Project Resources
-</h2>
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Arial+Black&size=36&duration=3000&pause=800&color=2E7D32&center=true&vCenter=true&width=1200&lines=Project+Resources+%26+Design+Evolution" />
+</h1>
 
-<p align="center" style="font-size:20px; line-height:1.8;">
-   <strong>Project Meeting & Discussion:</strong><br/>
+<p align="center" style="font-size:26px; font-weight:800;">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=FF1744&center=true&vCenter=true&width=1200&lines=🎥+Team+Meeting+%26+Project+Discussion+Recording" />
+  <br/>
   <a href="https://www.awesomescreenshot.com/video/48482958?key=a968803bfc602536bcf73c9e7d470616" target="_blank">
-    View Recorded Meeting
+    🔗 Watch Project Meeting Video
   </a>
 </p>
 
-<p align="center" style="font-size:20px; line-height:1.8;">
-   <strong>Old UI/UX Design (Initial Prototype):</strong><br/>
+<p align="center" style="font-size:26px; font-weight:800;">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=FF9800&center=true&vCenter=true&width=1200&lines=🎨+Old+UI%2FUX+Design+–+Initial+Prototype" />
+  <br/>
   <a href="https://www.figma.com/design/zROaHkBhzyhJpI7tBzvZ6n/Untitled?node-id=0-1&t=ZMBoDSm7TMto0yiI-1" target="_blank">
-    View Old UI/UX on Figma
+    🔗 View Old UI/UX on Figma
   </a>
 </p>
 
-<p align="center" style="font-size:20px; line-height:1.8;">
-   <strong>New UI/UX Design (Final Version):</strong><br/>
+<p align="center" style="font-size:26px; font-weight:800;">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=00C853&center=true&vCenter=true&width=1200&lines=🚀+New+UI%2FUX+Design+–+Final+Implementation" />
+  <br/>
   <a href="https://www.figma.com/design/e0gH6pyOKlHB7Upla7tWMv/Untitled?node-id=0-1&t=tm3Zx3VOuIB0ujI0-1" target="_blank">
-    View New UI/UX on Figma
+    🔗 View New UI/UX on Figma
   </a>
 </p>
 
