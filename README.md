@@ -25,9 +25,8 @@
 
 
 
-
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Arial+Black&size=36&duration=3000&pause=800&color=FF1493&center=true&vCenter=true&width=1400&lines=Project+Resource+Links+%26+UI%2FUX+Design+Evolution" />
+  <img src="https://readme-typing-svg.demolab.com?font=Arial+Black&size=36&duration=3000&pause=800&color=FF1493&center=true&vCenter=true&width=1500&lines=Project+Presentation+Meeting+Links+%7C+UI%2FUX+Design+Links+%28Figma%29" />
 </h1>
 
 <table align="center">
