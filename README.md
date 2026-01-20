@@ -25,6 +25,35 @@
 
 
 
+<h2 align="center" style="margin-top:40px; color:#2E7D32;">
+  Project Resources
+</h2>
+
+<p align="center" style="font-size:20px; line-height:1.8;">
+   <strong>Project Meeting & Discussion:</strong><br/>
+  <a href="https://www.awesomescreenshot.com/video/48482958?key=a968803bfc602536bcf73c9e7d470616" target="_blank">
+    View Recorded Meeting
+  </a>
+</p>
+
+<p align="center" style="font-size:20px; line-height:1.8;">
+   <strong>Old UI/UX Design (Initial Prototype):</strong><br/>
+  <a href="https://www.figma.com/design/zROaHkBhzyhJpI7tBzvZ6n/Untitled?node-id=0-1&t=ZMBoDSm7TMto0yiI-1" target="_blank">
+    View Old UI/UX on Figma
+  </a>
+</p>
+
+<p align="center" style="font-size:20px; line-height:1.8;">
+   <strong>New UI/UX Design (Final Version):</strong><br/>
+  <a href="https://www.figma.com/design/e0gH6pyOKlHB7Upla7tWMv/Untitled?node-id=0-1&t=tm3Zx3VOuIB0ujI0-1" target="_blank">
+    View New UI/UX on Figma
+  </a>
+</p>
+
+
+
+
+
 
 
 ## Group Members
