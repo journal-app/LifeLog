@@ -25,34 +25,44 @@
 
 
 
+
+
 <h1 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Arial+Black&size=36&duration=3000&pause=800&color=FF1493&center=true&vCenter=true&width=1200&lines=Project+Resources+%26+Design+Evolution" />
 </h1>
 
 
-<p align="center" style="font-size:26px; font-weight:800;">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=FF1744&center=true&vCenter=true&width=1200&lines=🎥+Team+Meeting+%26+Project+Discussion+Recording" />
-  <br/>
+<h2 align="center" style="font-size:34px; font-weight:900; color:#E91E63; margin-top:30px;">
+   Team Meeting & Project Discussion
+</h2>
+<p align="center" style="font-size:22px; font-weight:700;">
   <a href="https://www.awesomescreenshot.com/video/48482958?key=a968803bfc602536bcf73c9e7d470616" target="_blank">
-    🔗 Watch Project Meeting Video
+     Watch Project Meeting Recording
   </a>
 </p>
 
-<p align="center" style="font-size:26px; font-weight:800;">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=FF9800&center=true&vCenter=true&width=1200&lines=🎨+Old+UI%2FUX+Design+–+Initial+Prototype" />
-  <br/>
+<hr style="width:60%; margin:30px auto;"/>
+
+<h2 align="center" style="font-size:34px; font-weight:900; color:#FF9800;">
+   Old UI/UX Design – Initial Prototype
+</h2>
+<p align="center" style="font-size:22px; font-weight:700;">
   <a href="https://www.figma.com/design/zROaHkBhzyhJpI7tBzvZ6n/Untitled?node-id=0-1&t=ZMBoDSm7TMto0yiI-1" target="_blank">
-    🔗 View Old UI/UX on Figma
+     View Old UI/UX on Figma
   </a>
 </p>
 
-<p align="center" style="font-size:26px; font-weight:800;">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=00C853&center=true&vCenter=true&width=1200&lines=🚀+New+UI%2FUX+Design+–+Final+Implementation" />
-  <br/>
+<hr style="width:60%; margin:30px auto;"/>
+
+<h2 align="center" style="font-size:34px; font-weight:900; color:#2E7D32;">
+   New UI/UX Design – Final Implementation
+</h2>
+<p align="center" style="font-size:22px; font-weight:700;">
   <a href="https://www.figma.com/design/e0gH6pyOKlHB7Upla7tWMv/Untitled?node-id=0-1&t=tm3Zx3VOuIB0ujI0-1" target="_blank">
-    🔗 View New UI/UX on Figma
+     View New UI/UX on Figma
   </a>
 </p>
+
 
 
 
