@@ -31,37 +31,35 @@
   <img src="https://readme-typing-svg.demolab.com?font=Arial+Black&size=36&duration=3000&pause=800&color=FF1493&center=true&vCenter=true&width=1200&lines=Project+Resources+%26+Design+Evolution" />
 </h1>
 
+<table align="center">
+  <tr>
+    <th style="font-size:18px;">🎥 Project Meeting</th>
+    <td>
+      <a href="https://www.awesomescreenshot.com/video/48482958?key=a968803bfc602536bcf73c9e7d470616" target="_blank">
+        <img src="https://img.shields.io/badge/Meeting%20Recording-FF1493?style=for-the-badge&logo=googlemeet&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
 
-<h2 align="center" style="font-size:34px; font-weight:900; color:#E91E63; margin-top:30px;">
-   Team Meeting & Project Discussion
-</h2>
-<p align="center" style="font-size:22px; font-weight:700;">
-  <a href="https://www.awesomescreenshot.com/video/48482958?key=a968803bfc602536bcf73c9e7d470616" target="_blank">
-     Watch Project Meeting Recording
-  </a>
-</p>
+  <tr>
+    <th style="font-size:18px;">🎨 Old UI/UX</th>
+    <td>
+      <a href="https://www.figma.com/design/zROaHkBhzyhJpI7tBzvZ6n/Untitled?node-id=0-1&t=ZMBoDSm7TMto0yiI-1" target="_blank">
+        <img src="https://img.shields.io/badge/Old%20UI%2FUX%20Design-FF9800?style=for-the-badge&logo=figma&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
 
-<hr style="width:60%; margin:30px auto;"/>
+  <tr>
+    <th style="font-size:18px;">🚀 New UI/UX</th>
+    <td>
+      <a href="https://www.figma.com/design/e0gH6pyOKlHB7Upla7tWMv/Untitled?node-id=0-1&t=tm3Zx3VOuIB0ujI0-1" target="_blank">
+        <img src="https://img.shields.io/badge/New%20UI%2FUX%20Design-2E7D32?style=for-the-badge&logo=figma&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
-<h2 align="center" style="font-size:34px; font-weight:900; color:#FF9800;">
-   Old UI/UX Design – Initial Prototype
-</h2>
-<p align="center" style="font-size:22px; font-weight:700;">
-  <a href="https://www.figma.com/design/zROaHkBhzyhJpI7tBzvZ6n/Untitled?node-id=0-1&t=ZMBoDSm7TMto0yiI-1" target="_blank">
-     View Old UI/UX on Figma
-  </a>
-</p>
-
-<hr style="width:60%; margin:30px auto;"/>
-
-<h2 align="center" style="font-size:34px; font-weight:900; color:#2E7D32;">
-   New UI/UX Design – Final Implementation
-</h2>
-<p align="center" style="font-size:22px; font-weight:700;">
-  <a href="https://www.figma.com/design/e0gH6pyOKlHB7Upla7tWMv/Untitled?node-id=0-1&t=tm3Zx3VOuIB0ujI0-1" target="_blank">
-     View New UI/UX on Figma
-  </a>
-</p>
 
 
 
