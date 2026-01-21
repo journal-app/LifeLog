@@ -1,6 +1,8 @@
 <h1 align="center" style="font-size: 80px; color:#4CAF50; font-weight:bold;">
-  LifeLog – Personal Journal Web Application
+  LifeLog – Integrated Journal, Habit, Mood, and Task Management System
 </h1>
+
+
 
 <h1 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Arial+Black&size=40&duration=3500&pause=700&color=4CAF50&center=true&vCenter=true&width=1500&lines=LifeLog+-+Your+Personal+Journal+and+Productivity+Dashboard;Capture+Thoughts+%7C+Track+Habits+%7C+Visualize+Growth" alt="Typing SVG" />
@@ -21,6 +23,51 @@
     </a>
   </strong>
 </h1>
+
+
+
+
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Arial+Black&size=36&duration=3000&pause=800&color=FF1493&center=true&vCenter=true&width=1500&lines=Project+Presentation+Meeting+Links+%7C+UI%2FUX+Design+Links+%28Figma%29" />
+</h1>
+
+
+
+
+
+
+<table align="center">
+  <tr>
+    <th style="font-size:18px;"> Project Meeting Link</th>
+    <td>
+      <a href="https://www.awesomescreenshot.com/video/48482958?key=a968803bfc602536bcf73c9e7d470616" target="_blank">
+        <img src="https://img.shields.io/badge/Meeting%20Recording-FF1493?style=for-the-badge&logo=googlemeet&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <th style="font-size:18px;"> Old UI/UX Link</th>
+    <td>
+      <a href="https://www.figma.com/design/zROaHkBhzyhJpI7tBzvZ6n/Untitled?node-id=0-1&t=ZMBoDSm7TMto0yiI-1" target="_blank">
+        <img src="https://img.shields.io/badge/Old%20UI%2FUX%20Design-FF9800?style=for-the-badge&logo=figma&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <th style="font-size:18px;"> New UI/UX Link</th>
+    <td>
+      <a href="https://www.figma.com/design/e0gH6pyOKlHB7Upla7tWMv/Untitled?node-id=0-1&t=tm3Zx3VOuIB0ujI0-1" target="_blank">
+        <img src="https://img.shields.io/badge/New%20UI%2FUX%20Design-2E7D32?style=for-the-badge&logo=figma&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+
+
 
 
 
