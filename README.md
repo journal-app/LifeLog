@@ -3,7 +3,6 @@
 </h1>
 
 
-
 <h1 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Arial+Black&size=40&duration=3500&pause=700&color=4CAF50&center=true&vCenter=true&width=1500&lines=LifeLog+-+Your+Personal+Journal+and+Productivity+Dashboard;Capture+Thoughts+%7C+Track+Habits+%7C+Visualize+Growth" alt="Typing SVG" />
 </h1>
