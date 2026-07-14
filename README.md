@@ -76,7 +76,6 @@
 
 ![Haset Tesfaye](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=0&color=00CED1&width=400&height=50&lines=Haset+Tesfaye)  
 
-
 ---
 
 ## Project Taglines
