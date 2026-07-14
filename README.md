@@ -179,7 +179,6 @@ Experience LifeLog in action:
 
 *Quick, easy, and ready to enhance your productivity today!*
 
-
 ## Usage Guide
 
 | Action | Description |
