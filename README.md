@@ -29,9 +29,6 @@
 
 
 
-
-
-
 <table align="center">
   <tr>
     <th style="font-size:18px;"> Project Meeting Link</th>
