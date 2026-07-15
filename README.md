@@ -187,7 +187,6 @@ Experience LifeLog in action:
 | **Weekly Summary** | View your weekly activity overview and progress. |
 
 
-
 # <span style="color:red;">Screenshots & UI Mockups</span>     
 
 ## Home Page
